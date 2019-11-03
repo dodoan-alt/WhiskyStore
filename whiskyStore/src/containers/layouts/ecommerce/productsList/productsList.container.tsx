@@ -18,9 +18,9 @@ export class ProductsListContainer extends React.Component<NavigationStackScreen
     this.props.navigation.navigate({
       key: this.navigationKey,
       routeName: 'Product Details',
-      params:{
-        productDetail: product
-      }
+      params: {
+        productDetail: product,
+      },
     });
   };
 
