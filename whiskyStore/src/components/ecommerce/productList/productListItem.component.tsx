@@ -70,19 +70,6 @@ class ProductListItemComponent extends React.Component<ProductListItemProps> {
               {type}
             </Text>
           </View>
-          <View style={themedStyle.priceContainer}>
-            <Text
-              style={themedStyle.costLabel}
-              category='s1'>
-              {price}
-            </Text>
-            <Button
-              style={themedStyle.buyButton}
-              textStyle={textStyle.button}
-              icon={CartIconOutline}
-              onPress={this.onAddToBucket}
-            />
-          </View>
         </View>
       </TouchableOpacity>
     );
