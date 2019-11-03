@@ -84,24 +84,24 @@ export const routes: LayoutsContainerData[] = [
   //   route: 'Ecommerce',
   // },
   {
-    title: 'Products List 1',
+    title: 'BLENDED SCOTCH',
     icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
       return ThemeService.select({
         'Eva Light': MenuIconEcommerce(style),
         'Eva Dark': MenuIconEcommerceDark(style),
       }, theme);
     },
-    route: 'Products List',
+    route: 'BLENDED SCOTCH',
   },
   {
-    title: 'Products List 2',
+    title: 'SINGLE MALT',
     icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
       return ThemeService.select({
         'Eva Light': MenuIconEcommerce(style),
         'Eva Dark': MenuIconEcommerceDark(style),
       }, theme);
     },
-    route: 'Products List',
+    route: 'SINGLE MALT',
   },
 
 ];

@@ -52,6 +52,7 @@ import {
   PaymentContainer,
   ProductDetailsContainer,
   ProductsListContainer,
+  ProductsSingleMailListContainer,
   RentApartmentContainer,
   ShoppingCartContainer,
 } from '@src/containers/layouts/ecommerce';
@@ -113,8 +114,12 @@ const EcommerceNavigationMap: NavigationRouteConfigMap<any, NavigationStackProp>
     screen: PaymentContainer,
     navigationOptions: EcommerceNavigationOptions,
   },
-  ['Products List']: {
+  ['BLENDED SCOTCH']: {
     screen: ProductsListContainer,
+    navigationOptions: EcommerceNavigationOptions,
+  },
+  ['SINGLE MALT']: {
+    screen: ProductsSingleMailListContainer,
     navigationOptions: EcommerceNavigationOptions,
   },
   ['Product Details']: {
