@@ -119,9 +119,9 @@ export const products: Product[] = [
 ];
 
 export const productsSingleMalt: Product[] = [
-  { //7
+  {  // 7
     name: 'CLADACH',
-    type: 'SINGLE MALT',
+    type: 'SINGLE MALT 2',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',
@@ -133,9 +133,9 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Muối và tảo biển, ngọt thanh của mật ong và trái cây, hậu vị cay kèm mùi khói ấm nóng\n' +
         'Số lượng giới hạn',
   },
-  { //8
+  {  // 8
     name: 'GLEN ORD\nYEARS 42 OLD',
-    type: 'SINGLE MALT',
+    type: 'SINGLE MALT 1',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',
@@ -148,9 +148,9 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Ngọt ngào, chút mặn của muối, the mát, và cay nồng từ gỗ sồi\n' +
         'Chỉ có 600 chai trên toàn thế giới',
   },
-  { //9
+  {  // 9
     name: 'GLEN ORD\nYEARS 41 OLD',
-    type: 'SINGLE MALT',
+    type: 'SINGLE MALT 3',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',
@@ -163,7 +163,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Vị cam quýt, trái cây tươi, và chút mặn cay và the mát\n' +
         'Chỉ có 600 chai trên toàn thế giới',
   },
-  { //10
+  {  // 10
     name: 'GLEN ORD\nYEARS 40 OLD',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -178,7 +178,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Cam, mật ong, sô cô la, tiêu trắng và vị khói\n' +
         'Chỉ có 999 chai trên toàn thế giới',
   },
-  { //11
+  {  // 11
     name: 'TALISKER 25 NĂM TUỔI',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -193,7 +193,7 @@ export const productsSingleMalt: Product[] = [
         'Ẩn tầng khói là hương nho và mâm xôi.\n' +
         'Số lượng giới hạn',
   },
-  { //12
+  {  // 12
     name: 'CAOL ILA 15 NĂM TUỔI',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -207,7 +207,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: chua nhẹ, kèm chút mặn mà của biển, kèm theo hương vị đa tầng phức hợp của các loại trái cây và lớp vỏ chín mọng cùng vị đắng nhẹ của chocolate.\n' +
         'Số lượng giới hạn',
   },
-  { //13
+  {  // 13
     name: 'TEANINICH 17 NĂM TUỔI',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -222,7 +222,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: trái cây tươi, kẹo toffee, gỗ sồi, vỏ chanh, kẹo gum, tiêu trắng\n' +
         'Số lượng giới hạn',
   },
-  { //14
+  {  // 14
     name: 'INCHGOWER 27 NĂM TUỔI\nPHIÊN BẢN ĐẶC BIỆT 2018',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -237,7 +237,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Trái cây nhiệt đới, pha hương thơm nhẹ từ hạt dẻ, chút ngọt từ mật ong, hậu vị cay nồng.\n' +
         'Chỉ có 8544 chai trên toàn thế giới',
   },
-  { //15
+  {  // 15
     name: 'OBAN 21 NĂM TUỔI\nPHIÊN BẢN ĐẶC BIỆT 2018',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -252,7 +252,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Vị trái cây, mạch nha ngọt, cùng chút đằm mặn nơi đầu lưỡi, hậy vị cay nồng.\n' +
         'Số lượng giới hạn',
   },
-  { //16
+  {  // 16
     name: 'PITTYVAICH 28 NĂM TUỔI\nPHIÊN BẢN ĐẶC BIỆT 2018',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -267,7 +267,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Vị trái cây, mạch nha ngọt, cùng chút đằm mặn nơi đầu lưỡi, hậy vị cay nồng.\n' +
         'Số lượng giới hạn',
   },
-  { //17
+  {  // 17
     name: 'LINKWOOD 1978 37 NĂM TUỔI\nPHIÊN BẢN ĐẶC BIỆT 2016',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -282,7 +282,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Hương cỏ hoa, mạch nha và trái cây chín mọng\n' +
         'Chỉ có 6.114 chai trên toàn thế giới',
   },
-  { //18
+  {  // 18
     name: 'PORT ELLEN 39 NĂM TUỔI',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -296,7 +296,7 @@ export const productsSingleMalt: Product[] = [
         'Bộ sưu tập: Special Release 2016\n' +
         'Hương vị: Hương cam quýt, mật ong, chocolate trắng cùng chút đằm khói và than bùn',
   },
-  { //19
+  {  // 19
     name: 'CLYNELISH SELECT RESERVE 2ND\nEDITION SPECIAL RELEASES 2015',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -310,7 +310,7 @@ export const productsSingleMalt: Product[] = [
         'Thùng ủ: Gỗ sồi Mỹ và sherry châu Âu\n' +
         'Hương vị: Vị ngọt trái cây thơm mát, hậu vị cay mặn',
   },
-  { //20
+  {  // 20
     name: 'TALISKER 15 NĂM TUỔI',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -325,7 +325,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Vị đằm của muối và tảo biển, hậu vị cay nồng\n' +
         'Số lượng giới hạn',
   },
-  { //21
+  {  // 21
     name: 'CRAGGANMORE 12 NĂM TUỔI',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -339,7 +339,7 @@ export const productsSingleMalt: Product[] = [
         'Thùng ủ: Gỗ sồi châu Mỹ\n' +
         'Hương vị: Vị ngọt của mật ong, chua nhẹ từ vỏ cam, hậu vị cay mùi caramel',
   },
-  { //22
+  {  // 22
     name: 'CARDHU 14 NĂM TUỔI',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -354,7 +354,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Vị ngọt của trái cây mùa hè, hậu vị cay nồng và khô\n' +
         'Chỉ có 4.864 chai trên toàn thế giới',
   },
-  { //23
+  {  // 23
     name: 'LAGAVULIN 12 TUỔI',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -369,7 +369,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Muối và tảo biển, đậm mùi khói than bùn, lan tỏa và ấm nóng\n' +
         'Số lượng giới hạn',
   },
-  { //24
+  {  // 24
     name: 'PITTYVAICH 29 NĂM TUỔI',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -384,7 +384,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Ngọt đậm đà của trái cây và hoa khô, hậu vị hăng cay của bột gừng\n' +
         'Chỉ có 4.976 chai trên toàn thế giới',
   },
-  { //25
+  {  // 25
     name: 'DALWHINNIE 30 NĂM TUỔI',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -399,7 +399,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Vị ngọt của thạch thảo, vị đằm từ muối biển, mùi khói hài hoà ở hậu vị\n' +
         'Chỉ có 7.586 chai trên toàn thế giới',
   },
-  { //26
+  {  // 26
     name: 'MORTLACH 26 NĂM TUỔI',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
@@ -414,7 +414,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Kẹo toffee, hạt cà phê và hoa quả ngọt đậm đà, hậu vị thanh kéo dài\n' +
         'Chỉ có 3.883 chai trên toàn thế giới',
   },
-  { //27
+  {  // 27
     name: 'THE SINGLETON OF GLEN ORD\n18 NĂM TUỔI',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],

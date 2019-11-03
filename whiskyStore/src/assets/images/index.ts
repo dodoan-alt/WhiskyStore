@@ -451,127 +451,127 @@ export const imageBlendedScotch_Odyssey: ImageSource = {
   imageSource: require('./source/whisky/image-BlendedScotch_Odyssey.jpg'),
 };
 
-//3
+  // 3
 export const imageBlendedScotch_KingGeorgeV: ImageSource = {
   imageSource: require('./source/whisky/image-BlendedScotch_KingGeorgeV.jpg'),
 };
 
-//4
+  // 4
 export const imageBlendedScotch_JohnWalker_2016: ImageSource = {
   imageSource: require('./source/whisky/image-BlendedScotch_JohnWalker_2016.jpg'),
 };
 
-//5
+  // 5
 export const imageBlendedScotch_JohnWalker_2017: ImageSource = {
   imageSource: require('./source/whisky/image-BlendedScotch_JohnWalker_2017.jpg'),
 };
 
-//6
+  // 6
 export const imageBlendedScotch_JohnWalker_2018: ImageSource = {
   imageSource: require('./source/whisky/image-BlendedScotch_JohnWalker_2018.jpg'),
 };
 
-//7
+  // 7
 export const imageSingleMalt_Cladach_42: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Cladach_42.jpg'),
 };
 
-//8
+  // 8
 export const imageSingleMalt_GlenOrd_42: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_GlenOrd_42.jpg'),
 };
 
-//9
+  // 9
 export const imageSingleMalt_GlenOrd_41: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_GlenOrd_41.jpg'),
 };
 
-//10
+  // 10
 export const imageSingleMalt_GlenOrd_40: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_GlenOrd_40.jpg'),
 };
 
-//11
+  // 11
 export const imageSingleMalt_Talisker_25: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Talisker_25.jpg'),
 };
 
-//12
+  // 12
 export const imageSingleMalt_CaoIla_15: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_CaoIla_15.jpg'),
 };
 
-//13
+  // 13
 export const imageSingleMalt_Teaninich_17: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Teaninich_17.jpg'),
 };
 
-//14
+  // 14
 export const imageSingleMalt_Inchgower_27: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Inchgower_27.jpg'),
 };
 
-//15
+  // 15
 export const imageSingleMalt_Oban_21: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Oban_21.jpg'),
 };
 
-//16
+  // 16
 export const imageSingleMalt_Pittyvaich: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Pittyvaich_28.jpg'),
 };
 
-//17
+  // 17
 export const imageSingleMalt_Linkwood_37: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Linkwood_37.jpg'),
 };
 
-//18
+  // 18
 export const imageSingleMalt_PortEllen_39: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_PortEllen_39.jpg'),
 };
 
-//19
+  // 19
 export const imageSingleMalt_Clynelish_2015: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Clynelish_2015.jpg'),
 };
 
-//20
+  // 20
 export const imageSingleMalt_Talisker_15: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Talisker_15.jpg'),
 };
 
-//21
+  // 21
 export const imageSingleMalt_Cragganmore_12: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Cragganmore_12.jpg'),
 };
 
-//22
+  // 22
 export const imageSingleMalt_Cardhu_14: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Cardhu_14.jpg'),
 };
 
-//23
+  // 23
 export const imageSingleMalt_Lagavulin_12: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Lagavulin_12.jpg'),
 };
 
-//24
+  // 24
 export const imageSingleMalt_PittyVaich_29: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_PittyVaich_29.jpg'),
 };
 
-//25
+  // 25
 export const imageSingleMalt_Dalwhinnie_30: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Dalwhinnie_30.jpg'),
 };
 
-//26
+  // 26
 export const imageSingleMalt_Mortlach_26: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Mortlach_26.jpg'),
 };
 
-//27
+  // 27
 export const imageSingleMalt_SingletonOfGlenOrd_18: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_SingletonOfGlenOrd_18.jpg'),
 };
