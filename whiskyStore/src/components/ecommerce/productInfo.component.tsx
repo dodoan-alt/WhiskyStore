@@ -94,17 +94,6 @@ class ProductInfoComponent extends React.Component<ProductInfoProps> {
             appearance='hint'>
             {size}
           </Text>
-          <Text
-            style={[themedStyle.nameLabel, themedStyle.labelBottomSpace]}
-            category='h6'>
-            Color
-          </Text>
-          <RadioGroup
-            style={themedStyle.colorSelector}
-            selectedIndex={selectedColorIndex}
-            onChange={this.onColorSelectChange}>
-            {colors.map(this.renderColorRadio)}
-          </RadioGroup>
         </View>
       </View>
     );
