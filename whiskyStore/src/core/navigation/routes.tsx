@@ -299,7 +299,7 @@ const ComponentsNavigator: NavigationContainer = createStackNavigator(
 
 const LayoutsNavigator: NavigationContainer = createStackNavigator(
   {
-    ['Layouts']: LayoutsContainer,
+    ['WHISKY STORE']: LayoutsContainer,
     ['Auth']: AuthContainer,
     ['Social']: SocialContainer,
     ['Articles']: ArticlesContainer,
