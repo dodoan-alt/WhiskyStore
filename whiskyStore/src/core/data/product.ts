@@ -41,7 +41,7 @@ export const products: Product[] = [
     size: 'Thể tích: 70 cl / Độ cồn: 40%\n' +
         'Bộ sưu tập: The Last Cask\n' +
         'Thùng ủ: Gỗ sồi 100 năm tuổi\n' +
-        'Hương vị: Gỗ sồi, vani, dư vị khói đặc trưng\n'+
+        'Hương vị: Gỗ sồi, vani, dư vị khói đặc trưng\n' +
         'Số lượng 330 chai',
   },
   {
@@ -52,7 +52,7 @@ export const products: Product[] = [
     currency: '$',
     photo: imageBlendedScotch_Odyssey,
     description: 'Whisky là thức uống mang dấu ấn những hành trình kì vĩ. Tới đầu thế kỉ 20, danh tiếng của dòng whisky hảo hạng Johnnie Walker đã vượt ra khỏi xứ sở Scotland để vang danh khắp châu Âu và thế giới. Những thùng gỗ sỗ lớn đã trải qua hàng thập kỉ ròng rã trau dồi hương vị, nay tiếp tục hành trình của mình trên những con tàu vượt biển lớn đến mọi nẻo đường trên toàn thế giới. Bước tiến vĩ đại này đã khai sinh ra John Walker & Sons Odyssey - tuyệt phẩm whisky với thiết kế độc đáo giúp chai có khả năng hòa nhịp cùng chuyển động của sóng biển. Loại rượu whisky thanh tao này được làm từ ba loại mạch nha đơn có chất lượng tuyệt hảo. Cảm nhận ở lần nhấp môi đầu tiên là hương kẹo toffee và mật ong lan tỏa. Hậu vị đầy ấn tượng với hương khói thơm nồng nàn đầy quyến rũ dường như kéo dài đến vô tận.',
-    size: 'Thể tích: 70 cl / Độ cồn: 40%\n' + 
+    size: 'Thể tích: 70 cl / Độ cồn: 40%\n' +
         'Bộ sưu tập: John Walker & Sons\n' +
         'Thùng ủ: Gỗ sồi châu Âu\n' +
         'Hương vị: Toffee, mật ong, quả berry, óc chó, dư vị khói đặc trưng\n' +
@@ -125,7 +125,7 @@ export const productsSingleMalt: Product[] = [
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',
-    photo: imageSingleMalt_Cladach_42, 
+    photo: imageSingleMalt_Cladach_42,
     description: 'Cái tên Cladach trong tiếng Gaelic có nghĩa là “đường bờ biển”. Đây là sản phẩm đầu tiên được phối trộn từ 6 nhà máy chưng cất mạch nha đơn lừng danh miền duyên hải của Diageo: Caol Ila, Clynelish, Lagavulin, Oban, Inchgower và Talisker. Xuất hiện sau cùng và cũng được mong chờ nhất trong bộ sưu tập đặc biệt năm 2018 của Diageo, Cladach là đại diện tiêu biểu cho whisky mạch nha đơn tinh túy miền duyên hải. Màu vàng hổ phách cùng thiết kế độc đáo và hiện đại gợi lên hình ảnh những eo biển uốn lượn. Mang hương vị của biển cả, Cladach tựa như con thuyền vượt sóng chở người ra khơi chinh phục đại dương mênh mông. Cuộc hành trình bắt đầu với vị mặn của muối biển nơi đầu lưỡi, tiếp sau đó là vị ngọt thanh mát của gió và mây trời tạo nên sự hài hòa tổng thể trong vòm miệng. Hậu vị cay nồng cùng với một chút hơi khói âm ỉ ấm áp tựa như biển cả bao la. Sự kết hợp ấy đã tạo nên một kiệt tác “whisky đại dương xanh” hoàn hảo.',
     size: 'Thể tích: 70 cl / Độ cồn: 57.1%\n' +
         'Bộ sưu tập: Special Release 2018\n' +
@@ -214,7 +214,7 @@ export const productsSingleMalt: Product[] = [
     cost: 150,
     currency: '$',
     photo: imageSingleMalt_Teaninich_17,
-    description: 'Teannich 17 năm tuổi lần đầu tiên được Diageo giới thiệu vào năm 2017 để kỷ niệm 200 năm ngày thành lập của nhà chưng cất danh giá đến từ vùng Coastal Highland. Chất rượu vàng nhạt óng ánh ẩn chứa tầng lớp hương vị đa dạng, là miền đất vẫy vùng của những ai thích khám phá hương vị tinh tế của whisky mạch nha đơn. Teaninich 17 năm tuổi cuốn hút người thưởng ngoạn với vị cam quýt bùng nổ, rồi đến vị ngọt ngào của kẹo, lẩn đâu đó là chút cay nồng, mạnh mẽ của hương gỗ sồi, vỏ chanh và kẹo gum. Dư vị nồng ấm với tiêu trắng và vị ngọt thanh còn lại mãi nơi cuống họng. Thưởng thức Teaninich 17 năm tuổi với nước sẽ làm mềm lại vị ngọt của kẹo và nổi bật vị béo ngậy của kẹo toffee, cái ngọt thanh của táo và lê chín.', 
+    description: 'Teannich 17 năm tuổi lần đầu tiên được Diageo giới thiệu vào năm 2017 để kỷ niệm 200 năm ngày thành lập của nhà chưng cất danh giá đến từ vùng Coastal Highland. Chất rượu vàng nhạt óng ánh ẩn chứa tầng lớp hương vị đa dạng, là miền đất vẫy vùng của những ai thích khám phá hương vị tinh tế của whisky mạch nha đơn. Teaninich 17 năm tuổi cuốn hút người thưởng ngoạn với vị cam quýt bùng nổ, rồi đến vị ngọt ngào của kẹo, lẩn đâu đó là chút cay nồng, mạnh mẽ của hương gỗ sồi, vỏ chanh và kẹo gum. Dư vị nồng ấm với tiêu trắng và vị ngọt thanh còn lại mãi nơi cuống họng. Thưởng thức Teaninich 17 năm tuổi với nước sẽ làm mềm lại vị ngọt của kẹo và nổi bật vị béo ngậy của kẹo toffee, cái ngọt thanh của táo và lê chín.',
     size: 'Thể tích: 70 cl / Độ cồn: 55,9%\n' +
         'Whisky mạch nha đơn vùng Coastal Highland\n' +
         'Bộ sưu tập: Special Release 2017\n' +
