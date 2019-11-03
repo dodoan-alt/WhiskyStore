@@ -114,6 +114,8 @@ export class ProductDetailsContainer extends React.Component<NavigationStackScre
   };
 
   public render(): React.ReactNode {
+    const { navigation } = this.props;
+    this.state.product = navigation.getParam('productDetail',  products[1]);
     return (
       <ProductDetails
         product={this.state.product}
