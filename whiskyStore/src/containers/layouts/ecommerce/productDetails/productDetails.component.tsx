@@ -51,13 +51,11 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
     productState: null,
   };
 
-  componentWillMount = (): void =>{
-
+  componentWillMount = ():void =>{
     this.setState({productState:this.props.product});
-
     for (let index = 0; index < productsHistory.length; index++) {
       const element = productsHistory[index];
-      if (element.name == this.props.product.name) {
+      if (element.name === this.props.product.name) {
         productsHistory.splice(index,1);
         break;
       }
@@ -103,7 +101,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
 
   private onMoreProductAddPress = ()=>{}
   private onMoreProductPress = (index:number)=>{
-    const productsList = this.state.productState.type == 'BLENDED SCOTCH'? products: productsSingleMalt;
+    const productsList = this.state.productState.type === 'BLENDED SCOTCH'? products: productsSingleMalt;
     this.setState({productState:productsList[index]});
   }
 
@@ -180,7 +178,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
 
   private renderPagerMoreItems = (): React.ReactElement<ViewProps> => {
     const { themedStyle } = this.props;
-    const productsList = this.state.productState.type == 'BLENDED SCOTCH'? products: productsSingleMalt;
+    const productsList = this.state.productState.type === 'BLENDED SCOTCH'? products: productsSingleMalt;
     
     return (
       <View>

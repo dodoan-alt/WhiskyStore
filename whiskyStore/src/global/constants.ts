@@ -1,5 +1,5 @@
 import { Product } from '../core/model';
-export var productsHistory: Product[] = [];
+export let productsHistory: Product[] = [];
 
-export var productsMore: Product[] = [
+export let productsMore: Product[] = [
   ];
