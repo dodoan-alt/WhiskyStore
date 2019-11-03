@@ -93,7 +93,6 @@ export const routes: LayoutsContainerData[] = [
     },
     route: 'Products List',
   },
-
   {
     title: 'Products List 2',
     icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
@@ -104,7 +103,5 @@ export const routes: LayoutsContainerData[] = [
     },
     route: 'Products List',
   },
-  
 
- 
 ];
