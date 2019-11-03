@@ -10,12 +10,12 @@
     "githubUrl": "https://github.com/DoMinhDoan/WhiskyStore",
     "ios": {
       "bundleIdentifier": "com.ateam.whiskystore",
-      "appStoreUrl": ""
+      "appStoreUrl": "https://itunes.apple.com/us/app/whiskystore/id1246143230"
     },
     "android": {
       "package": "com.ateam.whiskystore",
       "versionCode": 17,
-      "playStoreUrl": ""
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.ateam.whiskystore"
     },
     "androidStatusBar": {
       "backgroundColor": "#FFFFFF"
