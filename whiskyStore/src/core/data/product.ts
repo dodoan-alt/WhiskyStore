@@ -1,32 +1,32 @@
 import { Product } from '@src/core/model';
 import {
-  imageBlendedScotch_JohnWalker, //1
-  imageBlendedScotch_Odyssey, //2
-  imageBlendedScotch_KingGeorgeV, //3
-  imageBlendedScotch_JohnWalker_2016, //4
-  imageBlendedScotch_JohnWalker_2017, //5
-  imageBlendedScotch_JohnWalker_2018, //6
-  imageSingleMalt_Cladach_42, //7
-  imageSingleMalt_GlenOrd_42, //8
-  imageSingleMalt_GlenOrd_41, //9
-  imageSingleMalt_GlenOrd_40, //10
-  imageSingleMalt_Talisker_25, //11
-  imageSingleMalt_CaoIla_15, //12
-  imageSingleMalt_Teaninich_17, //13
-  imageSingleMalt_Inchgower_27, //14
-  imageSingleMalt_Oban_21, //15
-  imageSingleMalt_Pittyvaich, //16
-  imageSingleMalt_Linkwood_37, //17
-  imageSingleMalt_PortEllen_39, //18
-  imageSingleMalt_Clynelish_2015, //19
-  imageSingleMalt_Talisker_15, //20
-  imageSingleMalt_Cragganmore_12, //21
-  imageSingleMalt_Cardhu_14, //22
-  imageSingleMalt_Lagavulin_12, //23
-  imageSingleMalt_PittyVaich_29, //24
-  imageSingleMalt_Dalwhinnie_30, //25
-  imageSingleMalt_Mortlach_26, //26
-  imageSingleMalt_SingletonOfGlenOrd_18, //27
+  imageBlendedScotch_JohnWalker,  // 1
+  imageBlendedScotch_Odyssey,  // 2
+  imageBlendedScotch_KingGeorgeV,  // 3
+  imageBlendedScotch_JohnWalker_2016,  // 4
+  imageBlendedScotch_JohnWalker_2017,  // 5
+  imageBlendedScotch_JohnWalker_2018,  // 6
+  imageSingleMalt_Cladach_42,  // 7
+  imageSingleMalt_GlenOrd_42,  // 8
+  imageSingleMalt_GlenOrd_41,  // 9
+  imageSingleMalt_GlenOrd_40,  // 10
+  imageSingleMalt_Talisker_25,  // 11
+  imageSingleMalt_CaoIla_15,  // 12
+  imageSingleMalt_Teaninich_17,  // 13
+  imageSingleMalt_Inchgower_27,  // 14
+  imageSingleMalt_Oban_21,  // 15
+  imageSingleMalt_Pittyvaich,  // 16
+  imageSingleMalt_Linkwood_37,  // 17
+  imageSingleMalt_PortEllen_39,  // 18
+  imageSingleMalt_Clynelish_2015,  // 19
+  imageSingleMalt_Talisker_15,  // 20
+  imageSingleMalt_Cragganmore_12,  // 21
+  imageSingleMalt_Cardhu_14,  // 22
+  imageSingleMalt_Lagavulin_12,  // 23
+  imageSingleMalt_PittyVaich_29,  // 24
+  imageSingleMalt_Dalwhinnie_30,  // 25
+  imageSingleMalt_Mortlach_26,  // 26
+  imageSingleMalt_SingletonOfGlenOrd_18,  // 27
 } from '@src/assets/images';
 
 export const products: Product[] = [
