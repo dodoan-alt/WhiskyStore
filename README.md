@@ -1,7 +1,7 @@
 # WhiskyStore
 Whisky Store React Native App
 
-# COMPILE & RUN
+## COMPILE & RUN
 
 Inside `whiskyStore`, run:
 
