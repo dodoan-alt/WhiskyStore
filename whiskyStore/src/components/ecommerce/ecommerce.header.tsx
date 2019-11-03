@@ -58,14 +58,14 @@ class EcommerceHeaderComponent extends React.Component<EcommerceHeaderProps> {
 
   private renderRightControls = (): React.ReactElement<TopNavigationActionProps>[] => {
     return ([
-      <TopNavigationAction
-        icon={SearchIconOutline}
-        onPress={this.onSearch}
-      />,
-      <TopNavigationAction
-        icon={this.renderShoppingCartIcon}
-        onPress={this.onShoppingCart}
-      />,
+      // <TopNavigationAction
+      //   icon={SearchIconOutline}
+      //   onPress={this.onSearch}
+      // />,
+      // <TopNavigationAction
+      //   icon={this.renderShoppingCartIcon}
+      //   onPress={this.onShoppingCart}
+      // />,
     ]);
   };
 

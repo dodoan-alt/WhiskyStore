@@ -9,13 +9,16 @@ interface State {
 }
 
 export class ProductsListContainer extends React.Component<NavigationStackScreenProps, State> {
-
+  private navigationKey: string = 'Products List';
   public state: State = {
     products: products,
   };
 
   private onProductPress = (product: Product) => {
-
+    this.props.navigation.navigate({
+      key: this.navigationKey,
+      routeName: 'Product Details',
+    });
   };
 
   private onProductAddPress = (product: Product) => {

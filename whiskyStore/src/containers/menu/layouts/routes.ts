@@ -63,24 +63,48 @@ export const routes: LayoutsContainerData[] = [
     // },
     // route: 'Messaging',
   // },
+  // {
+  //   title: 'Dashboards',
+  //   icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
+  //     return ThemeService.select({
+  //       'Eva Light': MenuIconDashboards(style),
+  //       'Eva Dark': MenuIconDashboardsDark(style),
+  //     }, theme);
+  //   },
+  //   route: 'Dashboards',
+  // },
+  // {
+  //   title: 'Ecommerce',
+  //   icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
+  //     return ThemeService.select({
+  //       'Eva Light': MenuIconEcommerce(style),
+  //       'Eva Dark': MenuIconEcommerceDark(style),
+  //     }, theme);
+  //   },
+  //   route: 'Ecommerce',
+  // },
   {
-    title: 'Dashboards',
-    icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
-      return ThemeService.select({
-        'Eva Light': MenuIconDashboards(style),
-        'Eva Dark': MenuIconDashboardsDark(style),
-      }, theme);
-    },
-    route: 'Dashboards',
-  },
-  {
-    title: 'Ecommerce',
+    title: 'Products List 1',
     icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
       return ThemeService.select({
         'Eva Light': MenuIconEcommerce(style),
         'Eva Dark': MenuIconEcommerceDark(style),
       }, theme);
     },
-    route: 'Ecommerce',
+    route: 'Products List',
   },
+
+  {
+    title: 'Products List 2',
+    icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
+      return ThemeService.select({
+        'Eva Light': MenuIconEcommerce(style),
+        'Eva Dark': MenuIconEcommerceDark(style),
+      }, theme);
+    },
+    route: 'Products List',
+  },
+  
+
+ 
 ];
