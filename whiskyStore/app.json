@@ -1,21 +1,21 @@
 {
   "expo": {
-    "name": "Kitten Tricks",
+    "name": "Whisky Store",
     "icon": "./src/assets/icons/icon.png",
     "version": "2.0.1",
-    "slug": "kittenTricks",
+    "slug": "whiskystore",
     "sdkVersion": "35.0.0",
     "privacy": "public",
-    "orientation": "portrait",
-    "githubUrl": "https://github.com/akveo/kittenTricks",
+    "orientation": "landscape",
+    "githubUrl": "https://github.com/DoMinhDoan/WhiskyStore",
     "ios": {
-      "bundleIdentifier": "com.akveo.kittentricks",
-      "appStoreUrl": "https://itunes.apple.com/us/app/kitten-tricks/id1246143230"
+      "bundleIdentifier": "com.ateam.whiskystore",
+      "appStoreUrl": ""
     },
     "android": {
-      "package": "com.akveo.kittenTricks",
+      "package": "com.ateam.whiskystore",
       "versionCode": 17,
-      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.akveo.kittenTricks"
+      "playStoreUrl": ""
     },
     "androidStatusBar": {
       "backgroundColor": "#FFFFFF"
@@ -28,6 +28,11 @@
     "splash": {
       "image": "src/assets/images/source/splash.png",
       "resizeMode": "contain"
-    }
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "description": ""
   }
 }
