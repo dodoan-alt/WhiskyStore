@@ -35,7 +35,7 @@ class MenuComponent extends React.Component<Props> {
 
     return (
       <SafeAreaView style={themedStyle.safeAreaContainer}>
-        <ThemeProvider theme={{...this.props.theme, ...themes['App Theme']}}>          
+        <ThemeProvider theme={{...this.props.theme, ...themes['App Theme']}}>
         </ThemeProvider>
       </SafeAreaView>
     );
