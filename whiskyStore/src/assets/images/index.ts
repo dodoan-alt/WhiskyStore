@@ -441,12 +441,12 @@ export const movieImage5: ImageSource = new RemoteImage(
   'https://www.iamag.co/wp-content/uploads/2018/10/HOW-TO-TRAIN-YOUR-DRAGON-THE-HIDDEN-WORLD-4-1-1024x430.jpg',
 );
 
- //1
+  //1
 export const imageBlendedScotch_JohnWalker: ImageSource = {
   imageSource: require('./source/whisky/image-BlendedScotch_JohnWalker.jpg'),
 };
 
- //2
+  //2
 export const imageBlendedScotch_Odyssey: ImageSource = {
   imageSource: require('./source/whisky/image-BlendedScotch_Odyssey.jpg'),
 };
