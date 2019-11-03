@@ -121,7 +121,7 @@ export const products: Product[] = [
 export const productsSingleMalt: Product[] = [
   {  // 7
     name: 'CLADACH',
-    type: 'SINGLE MALT 2',
+    type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',
@@ -135,7 +135,7 @@ export const productsSingleMalt: Product[] = [
   },
   {  // 8
     name: 'GLEN ORD\nYEARS 42 OLD',
-    type: 'SINGLE MALT 1',
+    type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',
@@ -150,7 +150,7 @@ export const productsSingleMalt: Product[] = [
   },
   {  // 9
     name: 'GLEN ORD\nYEARS 41 OLD',
-    type: 'SINGLE MALT 3',
+    type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',

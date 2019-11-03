@@ -93,7 +93,7 @@ class ProductsListComponent extends React.Component<ProductsListProps, State> {
     return (
       <Tab
         key={index}
-        title={title.toUpperCase()}>
+        title={''}>
         <ProductList
           contentContainerStyle={themedStyle.productsListContent}
           data={displayProducts}
