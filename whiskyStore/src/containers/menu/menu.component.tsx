@@ -35,24 +35,7 @@ class MenuComponent extends React.Component<Props> {
 
     return (
       <SafeAreaView style={themedStyle.safeAreaContainer}>
-        <ThemeProvider theme={{...this.props.theme, ...themes['App Theme']}}>
-          <BottomNavigation
-            appearance='noIndicator'
-            selectedIndex={selectedIndex}
-            onSelect={this.onTabSelect}>
-            <BottomNavigationTab
-              title='Layouts'
-              icon={LayoutIconOutline}
-            />
-            <BottomNavigationTab
-              title='Components'
-              icon={StarIconOutline}
-            />
-            <BottomNavigationTab
-              title='Themes'
-              icon={ColorPaletteIconOutline}
-            />
-          </BottomNavigation>
+        <ThemeProvider theme={{...this.props.theme, ...themes['App Theme']}}>          
         </ThemeProvider>
       </SafeAreaView>
     );
