@@ -65,8 +65,8 @@ class ProductInfoComponent extends React.Component<ProductInfoProps> {
           source={image}
         /> */}
         <ImageBackground
-          resizeMode={'stretch'} // or cover
-          style={{flex: 1}} // must be passed from the parent, the number may vary depending upon your screen size
+          resizeMode={'contain'} // or cover
+          style={{ aspectRatio: 4/3 }} // must be passed from the parent, the number may vary depending upon your screen size
           source={image}
         >
         <View style={themedStyle.detailsContainer}>
