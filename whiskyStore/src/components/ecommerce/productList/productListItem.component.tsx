@@ -81,6 +81,7 @@ export const ProductListItem = withStyles(ProductListItemComponent, (theme: Them
     minHeight: 272,
     borderRadius: 12,
     overflow: 'hidden',
+    width: 272
   },
   infoContainer: {
     flex: 1,
@@ -94,8 +95,11 @@ export const ProductListItem = withStyles(ProductListItemComponent, (theme: Them
   },
   image: {
     flex: 1,
-    width: null,
     height: 140,
+    width: 272,
+    aspectRatio: 1,
+    resizeMode: 'contain',
+    alignSelf: 'center'
   },
   nameLabel: textStyle.subtitle,
   typeLabel: textStyle.caption1,

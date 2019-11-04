@@ -4,6 +4,7 @@ import {
   ImageSourcePropType,
   View,
   ViewProps,
+  ImageBackground
 } from 'react-native';
 import {
   ThemedComponentProps,
@@ -16,7 +17,7 @@ import {
   RadioProps,
   Text,
 } from '@kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle, ImageOverlay } from '@src/components/common';
 
 interface ComponentProps {
   image: ImageSourcePropType;
@@ -29,6 +30,7 @@ interface ComponentProps {
   selectedColorIndex: number;
   onColorSelect: (index: number) => void;
 }
+import{line}  from '@src/assets/images';
 
 export type ProductInfoProps = ThemedComponentProps & ViewProps & ComponentProps;
 
@@ -58,12 +60,17 @@ class ProductInfoComponent extends React.Component<ProductInfoProps> {
       <View
         {...restProps}
         style={[themedStyle.container, style]}>
-        <Image
-          style={[themedStyle.image, themedStyle.bottomSpace]}
+        {/* <Image
+          style={[themedStyle.mainBackground, themedStyle.bottomSpace]}
           source={image}
-        />
+        /> */}
+        <ImageBackground
+          resizeMode={'stretch'} // or cover
+          style={{flex: 1, minHeight:2609}} // must be passed from the parent, the number may vary depending upon your screen size
+          source={image}
+        >
         <View style={themedStyle.detailsContainer}>
-          <View style={[themedStyle.nameContainer, themedStyle.bottomSpace]}>
+          {/* <View style={[themedStyle.nameContainer, themedStyle.bottomSpace]}>
             <View>
               <Text
                 style={[themedStyle.nameLabel, themedStyle.labelBottomSpace]}
@@ -78,8 +85,8 @@ class ProductInfoComponent extends React.Component<ProductInfoProps> {
               </Text>
             </View>
             <Text style={themedStyle.costLabel}>{price}</Text>
-          </View>
-          <Text
+          </View> */}
+          {/* <Text
             style={[themedStyle.descriptionText, themedStyle.bottomSpace]}
             appearance='hint'>
             {description}
@@ -93,8 +100,12 @@ class ProductInfoComponent extends React.Component<ProductInfoProps> {
             style={[themedStyle.descriptionText, themedStyle.bottomSpace]}
             appearance='hint'>
             {size}
-          </Text>
+          </Text> */}
+          <View style= { themedStyle.sizeArea}>
+            {/* <Image style={themedStyle.mainBackground source={line}}> */}
+          </View>
         </View>
+        </ImageBackground>
       </View>
     );
   }
@@ -108,7 +119,8 @@ export const ProductInfo = withStyles(ProductInfoComponent, (theme: ThemeType) =
     height: 340,
   },
   detailsContainer: {
-    marginHorizontal: 16,
+    // marginHorizontal: 16,
+    top: 2000,
   },
   nameContainer: {
     flexDirection: 'row',
@@ -136,4 +148,12 @@ export const ProductInfo = withStyles(ProductInfoComponent, (theme: ThemeType) =
   labelBottomSpace: {
     marginBottom: 8,
   },
+  mainBackground: {
+    flex: 1,
+    resizeMode: 'stretch',
+    width: null,
+  },
+  sizeArea:{
+    top:2000
+  }
 }));

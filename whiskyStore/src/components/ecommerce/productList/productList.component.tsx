@@ -72,7 +72,8 @@ class ProductListComponent extends React.Component<ProductListProps> {
         contentContainerStyle={[contentContainerStyle, themedStyle.container]}
         data={data}
         renderItem={this.renderItem}
-        numColumns={2}
+        // numColumns={3}
+        horizontal={true}
       />
     );
   }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, ListRenderItemInfo, ViewProps } from 'react-native';
+import { View, ListRenderItemInfo, ViewProps, Image } from 'react-native';
 import {
   ThemedComponentProps,
   ThemeType,
@@ -203,6 +203,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
     const {productState} = this.state;
     return (
       <ContainerView style={themedStyle.container}>
+        {/* <Image style={themedStyle.mainBackground} source={productState.photo.imageSource} /> */}
         <ProductInfo
           image={productState.photo.imageSource}
           name={productState.name}
@@ -242,7 +243,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
             onMorePress={this.onCommentMorePress}
             onReplyMorePress={this.onCommentReplyMorePress}
           /> */}
-          <Text
+          {/* <Text
             style={themedStyle.pagerLabel}
             appearance='hint'>
             HISTORY ITEMS
@@ -253,7 +254,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
             appearance='hint'>
             MORE ITEMS
           </Text>
-          {this.renderPagerMoreItems()}
+          {this.renderPagerMoreItems()} */}
         </View>
       </ContainerView>
     );
@@ -285,5 +286,10 @@ export const ProductDetails = withStyles(ProductDetailsComponent, (theme: ThemeT
   pagerLabel: {
     marginVertical: 16,
     ...textStyle.paragraph,
+  },
+  mainBackground: {
+    flex: 1,
+    resizeMode: 'stretch',
+    width: null,
   },
 }));
