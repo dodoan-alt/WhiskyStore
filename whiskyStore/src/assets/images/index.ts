@@ -531,6 +531,11 @@ export const imageSingleMalt_PortEllen_39: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_PortEllen_39.jpg'),
 };
 
+  // 18 - 1
+export const imageSingleMalt_Lagavulin_12_2016: ImageSource = {
+  imageSource: require('./source/whisky/imageSingleMalt_Lagavulin_12_2016.jpg'),
+};
+
   // 19
 export const imageSingleMalt_Clynelish_2015: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_Clynelish_2015.jpg'),
