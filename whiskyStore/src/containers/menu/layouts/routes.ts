@@ -103,5 +103,24 @@ export const routes: LayoutsContainerData[] = [
     },
     route: 'SINGLE MALT',
   },
-
+  {
+    title: 'CUSTOMIZATION',
+    icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
+      return ThemeService.select({
+        'Eva Light': MenuIconEcommerce(style),
+        'Eva Dark': MenuIconEcommerceDark(style),
+      }, theme);
+    },
+    // route: 'BLENDED SCOTCH',
+  },
+  {
+    title: 'WHISKY MAP',
+    icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
+      return ThemeService.select({
+        'Eva Light': MenuIconEcommerce(style),
+        'Eva Dark': MenuIconEcommerceDark(style),
+      }, theme);
+    },
+    // route: 'SINGLE MALT',
+  },
 ];
