@@ -576,4 +576,6 @@ export const imageSingleMalt_SingletonOfGlenOrd_18: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_SingletonOfGlenOrd_18.jpg'),
 };
 
-
+export const line: ImageSource = {
+  imageSource: require('./source/whisky/line.jpg'),
+};

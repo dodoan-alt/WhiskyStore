@@ -91,18 +91,30 @@ class ProductInfoComponent extends React.Component<ProductInfoProps> {
             appearance='hint'>
             {description}
           </Text>
+           */}
+          <View style= { themedStyle.sizeArea}>
+            <Image style={themedStyle.lineStyle}
+                    source={line.imageSource}>
+              
+            </Image>
+         
           <Text
-            style={[themedStyle.nameLabel, themedStyle.labelBottomSpace]}
-            category='h6'>
-            Size
-          </Text>
-          <Text
-            style={[themedStyle.descriptionText, themedStyle.bottomSpace]}
+            style={[themedStyle.descriptionText, themedStyle.bottomSpace , themedStyle.textCenter]}
             appearance='hint'>
             {size}
-          </Text> */}
-          <View style= { themedStyle.sizeArea}>
-            {/* <Image style={themedStyle.mainBackground source={line}}> */}
+          </Text>
+          <Image style={themedStyle.lineStyle}
+                    source={line.imageSource}>
+              
+            </Image>
+          </View>
+          <View style = {themedStyle.descriptionArea}>
+         
+            <Text
+              style={[themedStyle.descriptionText, themedStyle.bottomSpace, themedStyle.textCenter]}
+              appearance='hint'>
+              {description}
+            </Text>
           </View>
         </View>
         </ImageBackground>
@@ -120,7 +132,7 @@ export const ProductInfo = withStyles(ProductInfoComponent, (theme: ThemeType) =
   },
   detailsContainer: {
     // marginHorizontal: 16,
-    top: 2000,
+    top: 1560,
   },
   nameContainer: {
     flexDirection: 'row',
@@ -153,7 +165,22 @@ export const ProductInfo = withStyles(ProductInfoComponent, (theme: ThemeType) =
     resizeMode: 'stretch',
     width: null,
   },
+  lineStyle: {
+    left: '10%',
+    right: '10%',
+    bottom: 10,
+    // resizeMode: 'cover',
+    width: '80%',
+    height:1,
+  },
   sizeArea:{
-    top:2000
+    top:0,
+    justifyContent: 'center'
+  },
+  descriptionArea:{
+    top:50
+  },
+  textCenter:{
+    textAlign:'center'
   }
 }));
