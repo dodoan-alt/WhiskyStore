@@ -215,47 +215,6 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
           selectedColorIndex={this.state.selectedColorIndex}
           onColorSelect={this.onProductColorSelect}
         />
-     
-        {/* <Button
-          style={themedStyle.buyButton}
-          textStyle={textStyle.button}
-          size='giant'
-          onPress={this.onBuyPress}>
-          BUY
-        </Button> */}
-        <View style={themedStyle.commentsContainer}>
-          {/* <Text
-            style={themedStyle.inputLabel}
-            category='s1'>
-            Comments
-          </Text>
-          <Input
-            style={themedStyle.input}
-            textStyle={textStyle.paragraph}
-            placeholder='Write your comment'
-            value={currentCommentText}
-            onChangeText={this.onCommentTextChange}
-            onSubmitEditing={this.handleTextSubmit}
-          />
-          <CommentsList1
-            data={comments}
-            onLikePress={this.onCommentLikePress}
-            onMorePress={this.onCommentMorePress}
-            onReplyMorePress={this.onCommentReplyMorePress}
-          /> */}
-          {/* <Text
-            style={themedStyle.pagerLabel}
-            appearance='hint'>
-            HISTORY ITEMS
-          </Text>
-          {this.renderPagerHistoryItems()}
-          <Text
-            style={themedStyle.pagerLabel}
-            appearance='hint'>
-            MORE ITEMS
-          </Text>
-          {this.renderPagerMoreItems()} */}
-        </View>
       </ContainerView>
     );
   }
