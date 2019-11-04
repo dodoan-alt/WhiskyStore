@@ -215,6 +215,10 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
           selectedColorIndex={this.state.selectedColorIndex}
           onColorSelect={this.onProductColorSelect}
         />
+
+        <View style={themedStyle.commentsContainer}>
+        {this.renderPagerMoreItems()}
+        </View>
       </ContainerView>
     );
   }
