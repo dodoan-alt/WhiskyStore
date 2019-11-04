@@ -18,6 +18,7 @@ import {
   imageSingleMalt_Pittyvaich,  // 16
   imageSingleMalt_Linkwood_37,  // 17
   imageSingleMalt_PortEllen_39,  // 18
+  imageSingleMalt_Lagavulin_12_2016,  // 18 - 1
   imageSingleMalt_Clynelish_2015,  // 19
   imageSingleMalt_Talisker_15,  // 20
   imageSingleMalt_Cragganmore_12,  // 21
@@ -295,6 +296,21 @@ export const productsSingleMalt: Product[] = [
         'Thùng ủ: Gỗ sồi Châu Âu\n' +
         'Bộ sưu tập: Special Release 2016\n' +
         'Hương vị: Hương cam quýt, mật ong, chocolate trắng cùng chút đằm khói và than bùn',
+  },
+  {  // 18 - 1
+    name: 'LAGAVULIN 12 NĂM TUỔI',
+    type: 'SINGLE MALT',
+    colors: ['Black', 'Red', 'White'],
+    cost: 150,
+    currency: '$',
+    photo: imageSingleMalt_Lagavulin_12_2016,
+    description: 'Lagavulin 12 năm tuổi xuất hiện trong bộ sưu tập đặc biệt năm 2016 của Diageo nhân kỷ niệm 200 năm thành lập nhà máy chưng cất nổi tiếng nằm bên vịnh Lagavulin. Đây là phiên bản giới hạn được chưng cất từ những thùng gỗ sồi tự nhiên, tạo ra hương vị độc đáo cho loại whisky mạch nha đơn hiếm có đến từ miền nam đảo Islay này. Cái nhấp môi đầu tiên sẽ mang đến vị ngọt dịu dàng của sô cô la trái cây. Tiếp sau đó mùi hăng của bạc hà và hương khói nồng sẽ tạo cho vòm miệng cảm giác ấm nóng mãnh liệt như núi lửa phun trào. Hương vị mạnh mẽ ấy được cân bằng hoàn hảo với vị mặn của muối biển mang đến sự bất ngờ xứng đáng mong đợi. Sau cùng là mùi hăng cay lan tỏa, cộng với một chút chấm phá của mùi gỗ, tạo nên hậu vị thanh tao kéo dài',
+    size: 'Thể tích: 70 cl / Độ cồn: 57.7%\n' +
+        'Whisky mạch nha đơn đảo Islay\n' +
+        'Bộ sưu tập: Special Release 2016\n' +
+        'Thùng ủ: Gỗ sồi Mỹ Hogsheads\n' +
+        'Hương vị: Mặn mòi của muối biển, cộng một chút chấm phá mùi gỗ\n' +
+        'Số lượng giới hạn',
   },
   {  // 19
     name: 'CLYNELISH SELECT RESERVE 2ND\nEDITION SPECIAL RELEASES 2015',
