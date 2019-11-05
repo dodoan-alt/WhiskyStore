@@ -15,6 +15,10 @@ import {
   MenuIconMessagingDark,
   MenuIconDashboardsDark,
   MenuIconEcommerceDark,
+  MenuIconBlendedScotch,
+  MenuIconSingleMalt,
+  MenuIconCustomization,
+  MenuIconWhiskyMap,
 } from '@src/assets/icons';
 import {
   ThemeKey,
@@ -87,8 +91,8 @@ export const routes: LayoutsContainerData[] = [
     title: 'BLENDED SCOTCH',
     icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
       return ThemeService.select({
-        'Eva Light': MenuIconEcommerce(style),
-        'Eva Dark': MenuIconEcommerceDark(style),
+        'Eva Light': MenuIconBlendedScotch(style),
+        'Eva Dark': MenuIconBlendedScotch(style),
       }, theme);
     },
     route: 'BLENDED SCOTCH',
@@ -97,8 +101,8 @@ export const routes: LayoutsContainerData[] = [
     title: 'SINGLE MALT',
     icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
       return ThemeService.select({
-        'Eva Light': MenuIconEcommerce(style),
-        'Eva Dark': MenuIconEcommerceDark(style),
+        'Eva Light': MenuIconSingleMalt(style),
+        'Eva Dark': MenuIconSingleMalt(style),
       }, theme);
     },
     route: 'SINGLE MALT',
@@ -107,8 +111,8 @@ export const routes: LayoutsContainerData[] = [
     title: 'CUSTOMIZATION',
     icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
       return ThemeService.select({
-        'Eva Light': MenuIconEcommerce(style),
-        'Eva Dark': MenuIconEcommerceDark(style),
+        'Eva Light': MenuIconCustomization(style),
+        'Eva Dark': MenuIconCustomization(style),
       }, theme);
     },
     // route: 'BLENDED SCOTCH',
@@ -117,8 +121,8 @@ export const routes: LayoutsContainerData[] = [
     title: 'WHISKY MAP',
     icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
       return ThemeService.select({
-        'Eva Light': MenuIconEcommerce(style),
-        'Eva Dark': MenuIconEcommerceDark(style),
+        'Eva Light': MenuIconWhiskyMap(style),
+        'Eva Dark': MenuIconWhiskyMap(style),
       }, theme);
     },
     // route: 'SINGLE MALT',

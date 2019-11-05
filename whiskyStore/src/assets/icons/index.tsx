@@ -643,6 +643,38 @@ export const TwitterIconFill = (style: ImageStyle): IconElement<ImageProps> => {
   );
 };
 
+export const MenuIconBlendedScotch = (style: StyleProp<ImageStyle>): AssetIconElement => {
+  const source: IconSource = {
+    imageSource: require('./icon-BlendedScotch.jpg'),
+  };
+
+  return AssetIcon(source, style);
+};
+
+export const MenuIconSingleMalt = (style: StyleProp<ImageStyle>): AssetIconElement => {
+  const source: IconSource = {
+    imageSource: require('./icon-SingleMalt.jpg'),
+  };
+
+  return AssetIcon(source, style);
+};
+
+export const MenuIconCustomization = (style: StyleProp<ImageStyle>): AssetIconElement => {
+  const source: IconSource = {
+    imageSource: require('./icon-Customization.jpg'),
+  };
+
+  return AssetIcon(source, style);
+};
+
+export const MenuIconWhiskyMap = (style: StyleProp<ImageStyle>): AssetIconElement => {
+  const source: IconSource = {
+    imageSource: require('./icon-WhiskyMap.jpg'),
+  };
+
+  return AssetIcon(source, style);
+};
+
 export {
   AssetIcon,
   IconSource,
