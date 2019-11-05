@@ -587,142 +587,142 @@ export const line: ImageSource = {
 
   // 1
 export const imageIconBlendedScotch_JohnWalker: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-BlendedScotch_JohnWalker.jpg'),
+  imageSource: require('./source/whisky/imageIcon-BlendedScotch_JohnWalker.png'),
 };
 
   // 2
 export const imageIconBlendedScotch_Odyssey: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-BlendedScotch_Odyssey.jpg'),
+  imageSource: require('./source/whisky/imageIcon-BlendedScotch_Odyssey.png'),
 };
 
   // 3
 export const imageIconBlendedScotch_KingGeorgeV: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-BlendedScotch_KingGeorgeV.jpg'),
+  imageSource: require('./source/whisky/imageIcon-BlendedScotch_KingGeorgeV.png'),
 };
 
   // 4
 export const imageIconBlendedScotch_JohnWalker_2016: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-BlendedScotch_JohnWalker_2016.jpg'),
+  imageSource: require('./source/whisky/imageIcon-BlendedScotch_JohnWalker_2016.png'),
 };
 
   // 5
 export const imageIconBlendedScotch_JohnWalker_2017: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-BlendedScotch_JohnWalker_2017.jpg'),
+  imageSource: require('./source/whisky/imageIcon-BlendedScotch_JohnWalker_2017.png'),
 };
 
   // 6
 export const imageIconBlendedScotch_JohnWalker_2018: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-BlendedScotch_JohnWalker_2018.jpg'),
+  imageSource: require('./source/whisky/imageIcon-BlendedScotch_JohnWalker_2018.png'),
 };
 
   // 7
 export const imageIconSingleMalt_Cladach_42: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Cladach_42.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Cladach_42.png'),
 };
 
   // 8
 export const imageIconSingleMalt_GlenOrd_42: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_GlenOrd_42.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_GlenOrd_42.png'),
 };
 
   // 9
 export const imageIconSingleMalt_GlenOrd_41: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_GlenOrd_41.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_GlenOrd_41.png'),
 };
 
   // 10
 export const imageIconSingleMalt_GlenOrd_40: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_GlenOrd_40.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_GlenOrd_40.png'),
 };
 
   // 11
 export const imageIconSingleMalt_Talisker_25: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Talisker_25.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Talisker_25.png'),
 };
 
   // 12
 export const imageIconSingleMalt_CaoIla_15: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_CaoIla_15.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_CaoIla_15.png'),
 };
 
   // 13
 export const imageIconSingleMalt_Teaninich_17: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Teaninich_17.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Teaninich_17.png'),
 };
 
   // 14
 export const imageIconSingleMalt_Inchgower_27: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Inchgower_27.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Inchgower_27.png'),
 };
 
   // 15
 export const imageIconSingleMalt_Oban_21: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Oban_21.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Oban_21.png'),
 };
 
   // 16
 export const imageIconSingleMalt_Pittyvaich: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Pittyvaich_28.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Pittyvaich_28.png'),
 };
 
   // 17
 export const imageIconSingleMalt_Linkwood_37: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Linkwood_37.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Linkwood_37.png'),
 };
 
   // 18
 export const imageIconSingleMalt_PortEllen_39: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_PortEllen_39.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_PortEllen_39.png'),
 };
 
   // 18 - 1
 export const imageIconSingleMalt_Lagavulin_12_2016: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Lagavulin_12_2016.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Lagavulin_12_2016.png'),
 };
 
   // 19
 export const imageIconSingleMalt_Clynelish_2015: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Clynelish_2015.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Clynelish_2015.png'),
 };
 
   // 20
 export const imageIconSingleMalt_Talisker_15: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Talisker_15.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Talisker_15.png'),
 };
 
   // 21
 export const imageIconSingleMalt_Cragganmore_12: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Cragganmore_12.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Cragganmore_12.png'),
 };
 
   // 22
 export const imageIconSingleMalt_Cardhu_14: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Cardhu_14.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Cardhu_14.png'),
 };
 
   // 23
 export const imageIconSingleMalt_Lagavulin_12: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Lagavulin_12.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Lagavulin_12.png'),
 };
 
   // 24
 export const imageIconSingleMalt_PittyVaich_29: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_PittyVaich_29.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_PittyVaich_29.png'),
 };
 
   // 25
 export const imageIconSingleMalt_Dalwhinnie_30: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Dalwhinnie_30.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Dalwhinnie_30.png'),
 };
 
   // 26
 export const imageIconSingleMalt_Mortlach_26: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Mortlach_26.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_Mortlach_26.png'),
 };
 
   // 27
 export const imageIconSingleMalt_SingletonOfGlenOrd_18: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_SingletonOfGlenOrd_18.jpg'),
+  imageSource: require('./source/whisky/imageIcon-SingleMalt_SingletonOfGlenOrd_18.png'),
 };
 
 export const imageWhiskyStoreBG: ImageSource = {

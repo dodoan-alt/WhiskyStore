@@ -55,7 +55,7 @@ class ProductListItemComponent extends React.Component<ProductListItemProps> {
         onPress={this.onPress}>
         <Image
           style={themedStyle.image}
-          source={image}
+          source={iconimage}
         />
         <View style={themedStyle.infoContainer}>
           <View>

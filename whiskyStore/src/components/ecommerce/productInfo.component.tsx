@@ -21,6 +21,7 @@ import { textStyle, ImageOverlay } from '@src/components/common';
 
 interface ComponentProps {
   image: ImageSourcePropType;
+  iconimage: ImageSourcePropType;
   name: string;
   type: string;
   price: string;

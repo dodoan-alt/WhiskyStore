@@ -46,6 +46,7 @@ class ProductListComponent extends React.Component<ProductListProps> {
         style={themedStyle.item}
         activeOpacity={0.75}
         image={item.photo.imageSource}
+        iconimage={item.iconphoto.imageSource}
         name={item.name}
         type={item.type}
         price={`${item.cost} ${item.currency}`}
