@@ -7,7 +7,7 @@ import {
   ContainerView,
 } from '@src/components/common';
 import {imageWhiskyMap1, imageWhiskyMap2} from '@src/assets/images/'
-import { Image } from 'react-native';
+import { Image, View, ImageBackground } from 'react-native';
 interface State {
   movie: MovieModel;
 }
@@ -38,10 +38,16 @@ export class MovieDetailsContainer extends React.Component<NavigationStackScreen
       //   onScreenshotPress={this.onScreenshotPress}
       // />
       <ContainerView>
-      <Image  resizeMode={'contain'} // or cover
-        style={{ aspectRatio: 4/3 }} source={imageWhiskyMap1.imageSource}></Image>
-      <Image  resizeMode={'contain'} // or cover
-        style={{ aspectRatio: 4/3 }} source={imageWhiskyMap2.imageSource}></Image>
+        <View>
+          <ImageBackground  resizeMode={'contain'} // or cover
+          style={{ 
+          aspectRatio: 4/3  }} source={imageWhiskyMap1.imageSource}></ImageBackground>
+        </View>
+        <View>
+          <ImageBackground  resizeMode={'cover'} // or cover
+          style={{ 
+          aspectRatio: 4/3  }} source={imageWhiskyMap2.imageSource}></ImageBackground>
+        </View>
     </ContainerView>
     );
   }
