@@ -14,14 +14,17 @@ import {
   profile4,
 } from '@src/core/data/profile';
 import { BookDetails } from './bookDetails.component';
-
+import { View, ImageBackground } from 'react-native';
+import {imageWhiskyCustom} from '@src/assets/images/'
 const profiles: Profile[] = [
   profile1,
   profile2,
   profile3,
   profile4,
 ];
-
+import {
+  ContainerView,
+} from '@src/components/common';
 interface State {
   book: Book;
   comments: Comment[];
@@ -77,17 +80,21 @@ export class BookDetailsContainer extends React.Component<NavigationStackScreenP
 
   public render(): React.ReactNode {
     return (
-      <BookDetails
-        book={this.state.book}
-        comments={this.state.comments}
-        currentCommentText={this.state.currentCommentText}
-        onBuyBook={this.onBuyBookPress}
-        onCommentTextChange={this.onCommentTextChange}
-        onCommentSubmit={this.onCommentSubmit}
-        onCommentLikePress={this.onCommentLikePress}
-        onCommentMorePress={this.onCommentMorePress}
-        onCommentReplyMorePress={this.onCommentReplyMorePress}
-      />
+      // <BookDetails
+      //   book={this.state.book}
+      //   comments={this.state.comments}
+      //   currentCommentText={this.state.currentCommentText}
+      //   onBuyBook={this.onBuyBookPress}
+      //   onCommentTextChange={this.onCommentTextChange}
+      //   onCommentSubmit={this.onCommentSubmit}
+      //   onCommentLikePress={this.onCommentLikePress}
+      //   onCommentMorePress={this.onCommentMorePress}
+      //   onCommentReplyMorePress={this.onCommentReplyMorePress}
+      // />
+      <ContainerView>
+        <ImageBackground  resizeMode={'contain'} // or cover
+          style={{ aspectRatio: 4/3 }} source={imageWhiskyCustom.imageSource}></ImageBackground>
+      </ContainerView>
     );
   }
 }

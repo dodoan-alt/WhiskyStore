@@ -134,11 +134,11 @@ const EcommerceNavigationMap: NavigationRouteConfigMap<any, NavigationStackProp>
     screen: RentApartmentContainer,
     navigationOptions: EcommerceNavigationOptions,
   },
-  ['Movie Details']: {
+  ['WHISKY MAP']: {
     screen: MovieDetailsContainer,
     navigationOptions: EcommerceNavigationOptions,
   },
-  ['Book Details']: {
+  ['CUSTOMIZATION']: {
     screen: BookDetailsContainer,
     navigationOptions: EcommerceNavigationOptions,
   },

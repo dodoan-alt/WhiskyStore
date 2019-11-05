@@ -111,7 +111,7 @@ export const routes: LayoutsContainerData[] = [
         'Eva Dark': MenuIconEcommerceDark(style),
       }, theme);
     },
-    // route: 'BLENDED SCOTCH',
+    route: 'CUSTOMIZATION',
   },
   {
     title: 'WHISKY MAP',
@@ -121,6 +121,6 @@ export const routes: LayoutsContainerData[] = [
         'Eva Dark': MenuIconEcommerceDark(style),
       }, theme);
     },
-    // route: 'SINGLE MALT',
+    route: 'WHISKY MAP',
   },
 ];
