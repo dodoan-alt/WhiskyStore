@@ -63,12 +63,6 @@ class ProductListItemComponent extends React.Component<ProductListItemProps> {
               category='s1'>
               {name}
             </Text>
-            <Text
-              style={themedStyle.typeLabel}
-              appearance='hint'
-              category='c1'>
-              {type}
-            </Text>
           </View>
         </View>
       </TouchableOpacity>
@@ -81,11 +75,12 @@ export const ProductListItem = withStyles(ProductListItemComponent, (theme: Them
     minHeight: 272,
     borderRadius: 12,
     overflow: 'hidden',
-    width: 272
+    width: 272,
+    padding: 10,
   },
   infoContainer: {
     flex: 1,
-    padding: 16,
+    padding: 5,
     justifyContent: 'space-between',
   },
   priceContainer: {
@@ -99,9 +94,14 @@ export const ProductListItem = withStyles(ProductListItemComponent, (theme: Them
     width: 272,
     aspectRatio: 1,
     resizeMode: 'contain',
-    alignSelf: 'center'
+    alignSelf: 'center',
+    aspectRatio: 4/3,
   },
-  nameLabel: textStyle.subtitle,
+  nameLabel: {
+    color: 'white',
+    textAlign:'center',
+    ...textStyle.subtitle,
+  },
   typeLabel: textStyle.caption1,
   costLabel: textStyle.subtitle,
   buyButton: {
