@@ -103,6 +103,8 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
   private onMoreProductPress = (index:number)=>{
     const productsList = this.state.productState.type === 'BLENDED SCOTCH'? products: productsSingleMalt;
     this.setState({productState:productsList[index]});
+    console.log('this.containerView',this.containerView);
+    this.containerView.scrollToTop();
   }
 
   private renderHistoryListItemElement = (item: Product): ListItemElement => {
@@ -200,11 +202,14 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
     );
   };
 
+  private containerView:ContainerView;
+
+
   public render(): React.ReactNode {
     const { themedStyle, comments, currentCommentText } = this.props;
     const {productState} = this.state;
     return (
-      <ContainerView style={themedStyle.container}>
+      <ContainerView style={themedStyle.container} ref = {component => this.containerView = component}>
         {/* <Image style={themedStyle.mainBackground} source={productState.photo.imageSource} /> */}
         <ProductInfo
           image={productState.photo.imageSource}

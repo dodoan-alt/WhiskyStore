@@ -13,9 +13,14 @@ export type ContainerViewProps = ScrollViewProps;
  */
 export class ContainerView extends React.Component<ContainerViewProps> {
 
+  private scrollView:ScrollView;
+  public scrollToTop = ():void=>{
+    this.scrollView.scrollTo({y:0, animated:true});
+  }
   public render(): React.ReactElement<ScrollViewProps> {
     return (
       <ScrollView
+        ref= {ref=>this.scrollView = ref}
         bounces={false}
         bouncesZoom={false}
         alwaysBounceVertical={false}
