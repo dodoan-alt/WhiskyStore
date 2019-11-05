@@ -6,6 +6,7 @@ export interface Product {
   cost: number;
   currency: string;
   photo: ImageSource;
+  iconphoto: ImageSource;
   description: string;
   size: string;
   colors: string[];

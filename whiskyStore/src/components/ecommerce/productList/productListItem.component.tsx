@@ -25,6 +25,7 @@ interface ListDerivedProps {
 // @ts-ignore
 interface ComponentProps extends ListDerivedProps, TouchableOpacityProps {
   image: ImageSourcePropType;
+  iconimage: ImageSourcePropType;
   name: string;
   type: string;
   price: string;
@@ -45,7 +46,7 @@ class ProductListItemComponent extends React.Component<ProductListItemProps> {
   };
 
   public render(): React.ReactNode {
-    const { style, themedStyle, image, name, type, price, ...restProps } = this.props;
+    const { style, themedStyle, image, iconimage, name, type, price, ...restProps } = this.props;
 
     return (
       <TouchableOpacity
@@ -98,7 +99,6 @@ export const ProductListItem = withStyles(ProductListItemComponent, (theme: Them
     aspectRatio: 4/3,
   },
   nameLabel: {
-    color: 'white',
     textAlign:'center',
     ...textStyle.subtitle,
   },
