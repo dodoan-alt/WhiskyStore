@@ -75,6 +75,8 @@ export const ProductListItem = withStyles(ProductListItemComponent, (theme: Them
   container: {
     minHeight: 272,
     borderRadius: 12,
+    borderColor: '#ffff00',
+    borderWidth: 0.5,
     overflow: 'hidden',
     width: 272,
     padding: 10,

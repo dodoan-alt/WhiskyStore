@@ -58,6 +58,8 @@ export const LayoutsListItem = withStyles(LayoutsListItemComponent, (theme: Them
     alignItems: 'center',
     flexDirection: 'column',
     borderRadius: 8,
+    borderColor: '#ffff00',
+    borderWidth: 0.5,
     paddingHorizontal: 0,
     paddingVertical: 0,
   },
