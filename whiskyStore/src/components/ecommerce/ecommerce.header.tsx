@@ -79,6 +79,7 @@ class EcommerceHeaderComponent extends React.Component<EcommerceHeaderProps> {
           title={title}
           leftControl={this.renderLeftControl()}
           rightControls={this.renderRightControls()}
+          titleStyle={{color: '#ffff00'}}
         />
       </SafeAreaView>
     );
