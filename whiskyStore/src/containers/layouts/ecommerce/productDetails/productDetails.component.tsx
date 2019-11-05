@@ -113,6 +113,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
         style={themedStyle.item}
         activeOpacity={0.75}
         image={item.photo.imageSource}
+        iconimage={item.iconphoto.imageSource}
         name={item.name}
         type={item.type}
         price={`${item.cost} ${item.currency}`}
@@ -159,6 +160,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
         style={themedStyle.item}
         activeOpacity={0.75}
         image={item.photo.imageSource}
+        iconimage={item.iconphoto.imageSource}
         name={item.name}
         type={item.type}
         price={`${item.cost} ${item.currency}`}
@@ -206,6 +208,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
         {/* <Image style={themedStyle.mainBackground} source={productState.photo.imageSource} /> */}
         <ProductInfo
           image={productState.photo.imageSource}
+          iconimage={productState.iconphoto.imageSource}
           name={productState.name}
           type={productState.type}
           price={`${productState.cost} ${productState.currency}`}
