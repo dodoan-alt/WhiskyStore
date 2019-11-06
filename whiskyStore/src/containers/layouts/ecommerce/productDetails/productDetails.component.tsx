@@ -12,7 +12,7 @@ import {
   List,
 } from '@kitten/ui';
 import { CommentsList1 } from '@src/components/articles';
-import { ProductInfo, ProductListItem, ProductListItemProps } from '@src/components/ecommerce';
+import { ProductInfo, ProductListItemMore, ProductListItemMoreProps } from '@src/components/ecommerce';
 import {
   Product,
   Comment,
@@ -111,7 +111,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
     const { themedStyle } = this.props;
 
     return (
-      <ProductListItem
+      <ProductListItemMore
         style={themedStyle.item}
         activeOpacity={0.75}
         image={item.photo.imageSource}
@@ -158,7 +158,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
     const { themedStyle } = this.props;
 
     return (
-      <ProductListItem
+      <ProductListItemMore
         style={themedStyle.item}
         activeOpacity={0.75}
         image={item.photo.imageSource}
@@ -187,7 +187,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
     return (
       <View>
         <List
-          style={themedStyle.pagerContainer}
+          style={themedStyle.container}
           horizontal={true}
           renderItem={this.renderMoreItems}
           data={productsList}
@@ -223,10 +223,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
           selectedColorIndex={this.state.selectedColorIndex}
           onColorSelect={this.onProductColorSelect}
         />
-
-        <View style={themedStyle.commentsContainer}>
         {this.renderPagerMoreItems()}
-        </View>
       </ContainerView>
     );
   }
@@ -235,10 +232,11 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
 export const ProductDetails = withStyles(ProductDetailsComponent, (theme: ThemeType) => ({
   container: {
     backgroundColor: theme['background-basic-color-1'],
+    // paddingHorizontal: 8,
+    paddingVertical: 10,
+    // width: 400,
   },
   commentsContainer: {
-    paddingHorizontal: 8,
-    paddingVertical: 24,
     backgroundColor: theme['background-basic-color-2'],
   },
   input: {
@@ -262,5 +260,12 @@ export const ProductDetails = withStyles(ProductDetailsComponent, (theme: ThemeT
     flex: 1,
     resizeMode: 'stretch',
     width: null,
+  },
+  item: {
+    // flex: 1,
+    marginHorizontal: 8,
+    marginVertical: 8,
+    backgroundColor: theme['background-basic-color-1'],
+    height: 300,
   },
 }));

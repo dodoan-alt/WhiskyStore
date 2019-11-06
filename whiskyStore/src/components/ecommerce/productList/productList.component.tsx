@@ -81,7 +81,9 @@ class ProductListComponent extends React.Component<ProductListProps> {
 }
 
 export const ProductList = withStyles(ProductListComponent, (theme: ThemeType) => ({
-  container: {},
+  container: {
+      padding: 10,
+  },
   item: {
     flex: 1,
     marginHorizontal: 8,

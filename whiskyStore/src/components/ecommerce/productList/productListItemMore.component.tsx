@@ -33,9 +33,9 @@ interface ComponentProps extends ListDerivedProps, TouchableOpacityProps {
   onPress: (index: number) => void;
 }
 
-export type ProductListItemProps = ThemedComponentProps & ComponentProps;
+export type ProductListItemMoreProps = ThemedComponentProps & ComponentProps;
 
-class ProductListItemComponent extends React.Component<ProductListItemProps> {
+class ProductListItemMoreComponent extends React.Component<ProductListItemMoreProps> {
 
   private onPress = () => {
     this.props.onPress(this.props.index);
@@ -71,15 +71,15 @@ class ProductListItemComponent extends React.Component<ProductListItemProps> {
   }
 }
 
-export const ProductListItem = withStyles(ProductListItemComponent, (theme: ThemeType) => ({
+export const ProductListItemMore = withStyles(ProductListItemMoreComponent, (theme: ThemeType) => ({
   container: {
     minHeight: 150,
     borderRadius: 12,
     borderColor: '#996633',
     borderWidth: 0.5,
     // overflow: 'hidden',
-    width: 400,
-    padding: 70,
+    width: 300,
+    // padding: 100,
   },
   infoContainer: {
     // flex: 1,

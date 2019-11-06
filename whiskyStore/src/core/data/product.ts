@@ -153,7 +153,7 @@ export const products: Product[] = [
   },
   {  // 7
     name: 'CLADACH',
-    type: 'SINGLE MALT',
+    type: 'BLENDED SCOTCH',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',

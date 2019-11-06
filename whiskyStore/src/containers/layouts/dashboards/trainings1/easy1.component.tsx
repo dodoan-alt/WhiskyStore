@@ -148,6 +148,8 @@ export const Easy1 = withStyles(Easy1Component, (theme: ThemeType) => ({
   },
   pagerContainer: {
     marginVertical: 8,
+    paddingHorizontal: 16,
+    paddingVertical: 8,
   },
   pagerLabel: {
     marginVertical: 16,
