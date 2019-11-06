@@ -39,6 +39,7 @@ export const Layouts = withStyles(LayoutsComponent, (theme: ThemeType) => ({
   contentContainer: {
     paddingHorizontal: 16,
     paddingVertical: 16,
+    paddingTop: 70,
   },
   item: {
     flex: 1,
