@@ -120,12 +120,15 @@ const EcommerceNavigationMap: NavigationRouteConfigMap<any, NavigationStackProp>
   },
   ['SINGLE MALT']: {
     screen: ProductsSingleMailListContainer,
-    navigationOptions: EcommerceNavigationOptions,
+    // navigationOptions: EcommerceNavigationOptions,
+    navigationOptions:{header:null},
+
   },
   ['Product Details']: {
     screen: ProductDetailsContainer,
     // navigationOptions: EcommerceNavigationOptions,
     navigationOptions:{header:null},
+
   },
   ['Shopping Cart']: {
     screen: ShoppingCartContainer,
@@ -139,11 +142,13 @@ const EcommerceNavigationMap: NavigationRouteConfigMap<any, NavigationStackProp>
     screen: MovieDetailsContainer,
     // navigationOptions: EcommerceNavigationOptions,
     navigationOptions:{header:null},
+
   },
   ['CUSTOMIZATION']: {
     screen: BookDetailsContainer,
     // navigationOptions: EcommerceNavigationOptions,
     navigationOptions:{header:null},
+
   },
 };
 
@@ -302,9 +307,7 @@ const ComponentsNavigator: NavigationContainer = createStackNavigator(
 
 const LayoutsNavigator: NavigationContainer = createStackNavigator(
   {
-    ['WHISKY STORE']: {
-      screen:LayoutsContainer,
-      navigationOptions:{header:null},},
+    ['WHISKY STORE']: LayoutsContainer,
     ['Auth']: AuthContainer,
     ['Social']: SocialContainer,
     ['Articles']: ArticlesContainer,

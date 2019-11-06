@@ -11,11 +11,14 @@ import {
 } from '@kitten/ui';
 import { ProductList } from '@src/components/ecommerce';
 import { Product } from '@src/core/model';
-
+import { TouchableOpacity } from 'react-native-gesture-handler';
+import { Ionicons } from '@expo/vector-icons'
+import { ImageBackground, View } from 'react-native';
 interface ComponentProps {
   products: Product[];
   onProductPress: (product: Product) => void;
   onProductAddPress: (product: Product) => void;
+  onTouchBack:()=>void;
 }
 
 interface State {
@@ -84,6 +87,10 @@ class ProductsListComponent extends React.Component<ProductsListProps, State> {
     return ['All', ...new Set(categories)];
   };
 
+  private onTouchBack = ()=>{
+    this.props.onTouchBack();
+  }
+
   private renderTab = (title: string, index: number): React.ReactElement<TabProps> => {
     const { themedStyle, products } = this.props;
     const { [index]: tabCategory } = this.state.tabCategories;
@@ -108,14 +115,26 @@ class ProductsListComponent extends React.Component<ProductsListProps, State> {
     const { themedStyle } = this.props;
 
     const tabElements: React.ReactElement<TabProps>[] = this.state.tabCategories.map(this.renderTab);
+    const { products } = this.props;
+    // const {  tabCategory } = this.state.tabCategories;
 
+    const displayProducts: Product[] = this.getCategoryProducts(products, this.state.tabCategories[0]);
     return (
-      <TabView
-        style={themedStyle.container}
-        selectedIndex={this.state.selectedIndex}
-        onSelect={this.onTabSelect}>
-        {tabElements}
-      </TabView>
+      <View>
+       
+      <TouchableOpacity style={{position: 'absolute',}} onPress={() => this.onTouchBack()} >
+      {/* <Image source={ArrowIosBackFill}></Image> */}
+      <Ionicons name="ios-arrow-back" size={24} style = {{color: 'black'}}/>
+    </TouchableOpacity>
+     <ProductList
+           contentContainerStyle={themedStyle.productsListContent}
+           data={displayProducts}
+          onItemPress={this.onProductPress}
+         onItemAddPress={this.onProductAddPress}
+         />
+        
+      </View>
+    
     );
   }
 }

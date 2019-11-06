@@ -24,6 +24,9 @@ export class ProductsSingleMailListContainer extends React.Component<NavigationS
     });
   };
 
+  private onTouchBack = ()=>{
+    this.props.navigation.goBack(null);
+  }
   private onProductAddPress = (product: Product) => {
 
   };
@@ -34,6 +37,7 @@ export class ProductsSingleMailListContainer extends React.Component<NavigationS
         products={this.state.products}
         onProductPress={this.onProductPress}
         onProductAddPress={this.onProductAddPress}
+        onTouchBack={this.onTouchBack}
       />
     );
   }
