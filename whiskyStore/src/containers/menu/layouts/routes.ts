@@ -88,7 +88,7 @@ export const routes: LayoutsContainerData[] = [
   //   route: 'Ecommerce',
   // },
   {
-    title: 'BLENDED SCOTCH',
+    title: 'BLENDED',
     icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
       return ThemeService.select({
         'Eva Light': MenuIconBlendedScotch(style),
@@ -98,7 +98,7 @@ export const routes: LayoutsContainerData[] = [
     route: 'BLENDED SCOTCH',
   },
   {
-    title: 'SINGLE MALT',
+    title: 'SINGLE MALTS',
     icon: (style: StyleProp<ImageStyle>, theme: ThemeKey) => {
       return ThemeService.select({
         'Eva Light': MenuIconSingleMalt(style),

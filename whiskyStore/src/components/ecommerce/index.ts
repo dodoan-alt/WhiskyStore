@@ -68,3 +68,8 @@ export {
   ProductListItem,
   ProductListItemProps,
 } from './productList/productListItem.component';
+
+export {
+  ProductListItemMore,
+  ProductListItemMoreProps,
+} from './productList/productListItemMore.component';

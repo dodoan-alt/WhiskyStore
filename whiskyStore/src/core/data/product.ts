@@ -151,12 +151,9 @@ export const products: Product[] = [
         'Hương vị: Vị ngọt hương vanilla nồng nàn, trái cây, mùi khói hài hoà ở hậu vị\n' +
         'Chỉ có 8,5.588 chai trên toàn thế giới',
   },
-];
-
-export const productsSingleMalt: Product[] = [
   {  // 7
     name: 'CLADACH',
-    type: 'SINGLE MALT',
+    type: 'BLENDED SCOTCH',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',
@@ -169,6 +166,9 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Muối và tảo biển, ngọt thanh của mật ong và trái cây, hậu vị cay kèm mùi khói ấm nóng\n' +
         'Số lượng giới hạn',
   },
+];
+
+export const productsSingleMalt: Product[] = [  
   {  // 8
     name: 'GLEN ORD\nYEARS 42 OLD',
     type: 'SINGLE MALT',
