@@ -73,16 +73,16 @@ class ProductListItemComponent extends React.Component<ProductListItemProps> {
 
 export const ProductListItem = withStyles(ProductListItemComponent, (theme: ThemeType) => ({
   container: {
-    minHeight: 272,
+    minHeight: 250,
     borderRadius: 12,
     borderColor: '#ffff00',
     borderWidth: 0.5,
     overflow: 'hidden',
-    width: 272,
-    padding: 10,
+    width: 500,
+    // padding: 10,
   },
   infoContainer: {
-    flex: 1,
+    // flex: 1,
     padding: 5,
     justifyContent: 'space-between',
   },
@@ -93,12 +93,11 @@ export const ProductListItem = withStyles(ProductListItemComponent, (theme: Them
   },
   image: {
     flex: 1,
-    height: 140,
-    width: 272,
+    height: 500,
+    width: 300,
     aspectRatio: 1,
     resizeMode: 'contain',
     alignSelf: 'center',
-    aspectRatio: 4/3,
   },
   nameLabel: {
     textAlign:'center',
