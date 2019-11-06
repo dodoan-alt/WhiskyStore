@@ -581,10 +581,6 @@ export const imageSingleMalt_SingletonOfGlenOrd_18: ImageSource = {
   imageSource: require('./source/whisky/image-SingleMalt_SingletonOfGlenOrd_18.jpg'),
 };
 
-export const line: ImageSource = {
-  imageSource: require('./source/whisky/line.jpg'),
-};
-
   // 1
 export const imageIconBlendedScotch_JohnWalker: ImageSource = {
   imageSource: require('./source/whisky/imageIcon-BlendedScotch_JohnWalker.png'),
@@ -729,9 +725,25 @@ export const imageWhiskyStoreBG: ImageSource = {
   imageSource: require('./source/whisky/BG.jpg'),
 };
 
-export const imageWhiskyCustom: ImageSource = {
-  imageSource: require('./source/whisky/WhiskyCustom.jpg'),
+export const imageWhiskyCustom1: ImageSource = {
+  imageSource: require('./source/whisky/WhiskyCustom_00.jpg'),
 };
+export const imageWhiskyCustom2: ImageSource = {
+  imageSource: require('./source/whisky/WhiskyCustom_01.jpg'),
+};
+export const imageWhiskyCustom3: ImageSource = {
+  imageSource: require('./source/whisky/WhiskyCustom_02.jpg'),
+};
+export const imageWhiskyCustom4: ImageSource = {
+  imageSource: require('./source/whisky/WhiskyCustom_03.jpg'),
+};
+export const imageWhiskyCustom5: ImageSource = {
+  imageSource: require('./source/whisky/WhiskyCustom_04.jpg'),
+};
+export const imageWhiskyCustom6: ImageSource = {
+  imageSource: require('./source/whisky/WhiskyCustom_05.jpg'),
+};
+
 
 export const imageWhiskyMap1: ImageSource = {
   imageSource: require('./source/whisky/WhiskyMap_00.jpg'),
