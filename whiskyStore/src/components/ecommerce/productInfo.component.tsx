@@ -31,7 +31,6 @@ interface ComponentProps {
   selectedColorIndex: number;
   onColorSelect: (index: number) => void;
 }
-import{line}  from '@src/assets/images';
 
 export type ProductInfoProps = ThemedComponentProps & ViewProps & ComponentProps;
 
@@ -93,21 +92,12 @@ class ProductInfoComponent extends React.Component<ProductInfoProps> {
             {description}
           </Text>
            */}
-          <View style= { themedStyle.sizeArea}>
-            <Image style={themedStyle.lineStyle}
-                    source={line.imageSource}>
-              
-            </Image>
-         
+          <View style= { themedStyle.sizeArea}>         
           <Text
             style={[themedStyle.descriptionText, themedStyle.bottomSpace , themedStyle.textCenter]}
             appearance='hint'>
             {size}
           </Text>
-          <Image style={themedStyle.lineStyle}
-                    source={line.imageSource}>
-              
-            </Image>
           </View>
           <View style = {themedStyle.descriptionArea}>
          
