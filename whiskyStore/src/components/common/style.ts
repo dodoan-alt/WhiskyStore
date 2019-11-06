@@ -35,4 +35,8 @@ export const textStyle: { [key: string]: TextStyle } = {
     // fontFamily: 'opensans-extrabold',
     // fontWeight: 'normal',
   },
+
+  backButton: {
+    paddingTop:10, paddingLeft:10,  color: 'white'
+  },
 };

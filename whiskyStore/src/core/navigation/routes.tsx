@@ -124,7 +124,8 @@ const EcommerceNavigationMap: NavigationRouteConfigMap<any, NavigationStackProp>
   },
   ['Product Details']: {
     screen: ProductDetailsContainer,
-    navigationOptions: EcommerceNavigationOptions,
+    // navigationOptions: EcommerceNavigationOptions,
+    navigationOptions:{header:null},
   },
   ['Shopping Cart']: {
     screen: ShoppingCartContainer,
@@ -136,11 +137,13 @@ const EcommerceNavigationMap: NavigationRouteConfigMap<any, NavigationStackProp>
   },
   ['WHISKY MAP']: {
     screen: MovieDetailsContainer,
-    navigationOptions: EcommerceNavigationOptions,
+    // navigationOptions: EcommerceNavigationOptions,
+    navigationOptions:{header:null},
   },
   ['CUSTOMIZATION']: {
     screen: BookDetailsContainer,
-    navigationOptions: EcommerceNavigationOptions,
+    // navigationOptions: EcommerceNavigationOptions,
+    navigationOptions:{header:null},
   },
 };
 
@@ -299,7 +302,9 @@ const ComponentsNavigator: NavigationContainer = createStackNavigator(
 
 const LayoutsNavigator: NavigationContainer = createStackNavigator(
   {
-    ['WHISKY STORE']: LayoutsContainer,
+    ['WHISKY STORE']: {
+      screen:LayoutsContainer,
+      navigationOptions:{header:null},},
     ['Auth']: AuthContainer,
     ['Social']: SocialContainer,
     ['Articles']: ArticlesContainer,

@@ -14,7 +14,7 @@ import {
   profile4,
 } from '@src/core/data/profile';
 import { BookDetails } from './bookDetails.component';
-import { View, ImageBackground } from 'react-native';
+import { View, ImageBackground, Button, Text, Image } from 'react-native';
 import {imageWhiskyCustom} from '@src/assets/images/'
 const profiles: Profile[] = [
   profile1,
@@ -25,6 +25,8 @@ const profiles: Profile[] = [
 import {
   ContainerView,
 } from '@src/components/common';
+import { TouchableOpacity } from 'react-native-gesture-handler';
+import { Ionicons } from '@expo/vector-icons'
 interface State {
   book: Book;
   comments: Comment[];
@@ -77,6 +79,10 @@ export class BookDetailsContainer extends React.Component<NavigationStackScreenP
     });
   };
 
+  private onTouch_Back = ()=>{
+    this.props.navigation.goBack();
+  }
+
 
   public render(): React.ReactNode {
     return (
@@ -93,7 +99,13 @@ export class BookDetailsContainer extends React.Component<NavigationStackScreenP
       // />
       <ContainerView>
         <ImageBackground  resizeMode={'contain'} // or cover
-          style={{ aspectRatio: 4/3 }} source={imageWhiskyCustom.imageSource}></ImageBackground>
+          style={{ aspectRatio: 4/3 }} source={imageWhiskyCustom.imageSource}>
+          <TouchableOpacity onPress={() => this.onTouch_Back()} >
+            {/* <Image source={ArrowIosBackFill}></Image> */}
+            <Ionicons name="ios-arrow-back" size={24} style = {{paddingTop:10, paddingLeft:10,  color: 'white'}}/>
+          </TouchableOpacity>
+          </ImageBackground>
+          
       </ContainerView>
     );
   }

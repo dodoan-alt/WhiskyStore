@@ -30,9 +30,11 @@ interface ComponentProps {
   colors: string[];
   selectedColorIndex: number;
   onColorSelect: (index: number) => void;
+  onGoBack:()=>void;
 }
 import{line}  from '@src/assets/images';
-
+import { TouchableOpacity } from 'react-native-gesture-handler';
+import { Ionicons } from '@expo/vector-icons'
 export type ProductInfoProps = ThemedComponentProps & ViewProps & ComponentProps;
 
 class ProductInfoComponent extends React.Component<ProductInfoProps> {
@@ -53,6 +55,10 @@ class ProductInfoComponent extends React.Component<ProductInfoProps> {
     );
   };
 
+  private onGoBack = (): void => {
+    this.props.onGoBack();
+  };
+
   public render(): React.ReactNode {
     const { style, themedStyle, selectedColorIndex, ...withDataProps } = this.props;
     const { image, name, type, price, description, size, colors, ...restProps } = withDataProps;
@@ -70,6 +76,10 @@ class ProductInfoComponent extends React.Component<ProductInfoProps> {
           style={{ aspectRatio: 4/3 }} // must be passed from the parent, the number may vary depending upon your screen size
           source={image}
         >
+          <TouchableOpacity onPress={() => this.onGoBack()} >
+            {/* <Image source={ArrowIosBackFill}></Image> */}
+            <Ionicons name="ios-arrow-back" size={24} style = {{paddingTop:10, paddingLeft:10,  color: 'white'}}/>
+          </TouchableOpacity>
         <View style={themedStyle.detailsContainer}>
           {/* <View style={[themedStyle.nameContainer, themedStyle.bottomSpace]}>
             <View>

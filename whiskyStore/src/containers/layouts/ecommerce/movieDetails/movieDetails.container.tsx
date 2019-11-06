@@ -8,6 +8,8 @@ import {
 } from '@src/components/common';
 import {imageWhiskyMap1, imageWhiskyMap2} from '@src/assets/images/'
 import { Image, View, ImageBackground } from 'react-native';
+import { TouchableOpacity } from 'react-native-gesture-handler';
+import { Ionicons } from '@expo/vector-icons'
 interface State {
   movie: MovieModel;
 }
@@ -30,6 +32,10 @@ export class MovieDetailsContainer extends React.Component<NavigationStackScreen
     });
   };
 
+  private onTouch_Back = ()=>{
+    this.props.navigation.goBack();
+  }
+
   public render(): React.ReactNode {
     return (
       // <Movie
@@ -41,12 +47,18 @@ export class MovieDetailsContainer extends React.Component<NavigationStackScreen
         <View>
           <ImageBackground  resizeMode={'contain'} // or cover
           style={{ 
-          aspectRatio: 4/3  }} source={imageWhiskyMap1.imageSource}></ImageBackground>
+          aspectRatio: 4/3  }} source={imageWhiskyMap1.imageSource}>
+             <TouchableOpacity onPress={() => this.onTouch_Back()} >
+            {/* <Image source={ArrowIosBackFill}></Image> */}
+            <Ionicons name="ios-arrow-back" size={24}  style = {{paddingTop:10, paddingLeft:10,  color: 'white'}}/>
+          </TouchableOpacity>
+          </ImageBackground>
         </View>
         <View>
           <ImageBackground  resizeMode={'cover'} // or cover
           style={{ 
           aspectRatio: 4/3  }} source={imageWhiskyMap2.imageSource}></ImageBackground>
+          
         </View>
     </ContainerView>
     );

@@ -35,6 +35,7 @@ interface ComponentProps {
   onCommentReplyMorePress: (index: number) => void;
   onCommentLikePress: (index: number) => void;
   onBuyPress: () => void;
+  onGoBack:()=>void;
 }
 
 interface State {
@@ -65,6 +66,9 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
   componentWillUnmount = ():void=>{
     productsHistory.push(this.state.productState);
   }
+  private onGoBack = (): void => {
+    this.props.onGoBack();
+  };
 
   private onBuyPress = (): void => {
     this.props.onBuyPress();
@@ -105,6 +109,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
     this.setState({productState:productsList[index]});
     console.log('this.containerView',this.containerView);
     this.containerView.scrollToTop();
+    
   }
 
   private renderHistoryListItemElement = (item: Product): ListItemElement => {
@@ -121,6 +126,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
         price={`${item.cost} ${item.currency}`}
         onAddPress={this.onHistoryProductPress}
         onPress={this.onHistoryProductPress}
+       
       />
     );
   };
@@ -222,6 +228,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
           colors={productState.colors}
           selectedColorIndex={this.state.selectedColorIndex}
           onColorSelect={this.onProductColorSelect}
+          onGoBack={this.onGoBack}
         />
 
         <View style={themedStyle.commentsContainer}>

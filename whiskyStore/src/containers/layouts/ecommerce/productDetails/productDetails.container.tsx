@@ -34,7 +34,7 @@ interface State {
   comments: Comment[];
   currentCommentText: string;
 }
-
+import { KEY_NAVIGATION_BACK } from '@src/core/navigation/constants';
 export class ProductDetailsContainer extends React.Component<NavigationStackScreenProps, State> {
 
   public state: State = {
@@ -63,6 +63,10 @@ export class ProductDetailsContainer extends React.Component<NavigationStackScre
       action: this.onGoToCart,
     },
   ];
+
+  private onTouch_Back = ()=>{
+    this.props.navigation.goBack(KEY_NAVIGATION_BACK);
+  }
 
   private onBuyPress = (): void => {
     this.modalId = ModalService.show(
@@ -112,7 +116,7 @@ export class ProductDetailsContainer extends React.Component<NavigationStackScre
   private closeModal = (): void => {
     ModalService.hide(this.modalId);
   };
-
+  
   public render(): React.ReactNode {
     const { navigation } = this.props;
     this.state.product = navigation.getParam('productDetail',  products[1]);
@@ -127,6 +131,7 @@ export class ProductDetailsContainer extends React.Component<NavigationStackScre
         onCommentLikePress={this.onLikePress}
         onCommentMorePress={this.onCommentItemPress}
         onCommentReplyMorePress={this.onCommentPress}
+        onGoBack={this.onTouch_Back}
       />
     );
   }
