@@ -60,8 +60,8 @@ import {
 
 export const products: Product[] = [
   {
-   name: 'THE JOHN WALKER\nTHE FOUNDER\'S BLEND',
-    type: 'BLENDED SCOTCH',
+    name: 'JOHN WALKER & SONS\nTHE JOHN WALKER\n70cl / 40%',
+    type: 'BLENDED',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',
@@ -75,8 +75,8 @@ export const products: Product[] = [
         'Số lượng 330 chai',
   },
   {
-    name: 'ODYSSEY\nRARE TRIPPLE MALT',
-    type: 'BLENDED SCOTCH',
+    name: 'JOHN WALKER & SONS\nODYSSEY\n70cl / 40%',
+    type: 'BLENDED',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',
@@ -90,8 +90,8 @@ export const products: Product[] = [
         'Số lượng giới hạn\n',
   },
   {
-    name: 'KING GEORGE V\nA REGAL BLEND OF OUR RAREST WHISKY',
-    type: 'BLENDED SCOTCH',
+    name: 'JOHN WALKER & SONS\nKING GEORGE V\n70cl / 43%',
+    type: 'BLENDED',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',
@@ -105,8 +105,8 @@ export const products: Product[] = [
         'Số lượng giới hạn',
   },
   {
-    name: 'THE JOHN WALKER\nPRIVATE COLLECTION™ PHIÊN BẢN 2016',
-    type: 'BLENDED SCOTCH',
+    name: 'JOHN WALKER & SONS\nPRIVATE COLLECTION 2016 EDITION\n70cl / 43%',
+    type: 'BLENDED',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',
@@ -120,8 +120,8 @@ export const products: Product[] = [
         'Chỉ có 8,888 chai trên toàn thế giới',
   },
   {
-    name: 'THE JOHN WALKER\nPRIVATE COLLECTION™ PHIÊN BẢN 2017',
-    type: 'BLENDED SCOTCH',
+    name: 'JOHN WALKER & SONS\nPRIVATE COLLECTION  2017 EDITION\n70cl / 46.8%',
+    type: 'BLENDED',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',
@@ -136,8 +136,8 @@ export const products: Product[] = [
         'Chỉ có 8,5.588 chai trên toàn thế giới',
   },
   {
-    name: 'THE JOHN WALKER\nPRIVATE COLLECTION™ 28 NĂM TUỔI',
-    type: 'BLENDED SCOTCH',
+    name: 'JOHN WALKER & SONS\nPRIVATE COLLECTION  2018 EDITION\n70cl / 42.8%',
+    type: 'BLENDED',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',
@@ -152,8 +152,8 @@ export const products: Product[] = [
         'Chỉ có 8,5.588 chai trên toàn thế giới',
   },
   {  // 7
-    name: 'CLADACH',
-    type: 'BLENDED SCOTCH',
+    name: 'CLADACH\nSPECIAL RELEASES 2018\n70cl / 57.1%',
+    type: 'BLENDED',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
     currency: '$',
@@ -170,7 +170,7 @@ export const products: Product[] = [
 
 export const productsSingleMalt: Product[] = [  
   {  // 8
-    name: 'GLEN ORD\nYEARS 42 OLD',
+    name: 'THE SINGLETON OF GLEN ORD\n42 YEARS OLD\n70cl / 49.3%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -186,7 +186,7 @@ export const productsSingleMalt: Product[] = [
         'Chỉ có 600 chai trên toàn thế giới',
   },
   {  // 9
-    name: 'GLEN ORD\nYEARS 41 OLD',
+    name: 'THE SINGLETON OF GLEN ORD\n41 YEARS OLD\n70cl / 49.9%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -202,7 +202,7 @@ export const productsSingleMalt: Product[] = [
         'Chỉ có 600 chai trên toàn thế giới',
   },
   {  // 10
-    name: 'GLEN ORD\nYEARS 40 OLD',
+    name: 'THE SINGLETON OF GLEN ORD\n40 YEARS OLD\n70cl / 40%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -218,7 +218,7 @@ export const productsSingleMalt: Product[] = [
         'Chỉ có 999 chai trên toàn thế giới',
   },
   {  // 11
-    name: 'TALISKER 25 NĂM TUỔI',
+    name: 'TALISKER\n25 YEARS OLD\n70cl / 40%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -234,7 +234,7 @@ export const productsSingleMalt: Product[] = [
         'Số lượng giới hạn',
   },
   {  // 12
-    name: 'CAOL ILA 15 NĂM TUỔI',
+    name: 'CAOL ILA\n15 YEARS OLD SPECIAL RELEASES 2016\n70cl / 59.1%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -249,7 +249,7 @@ export const productsSingleMalt: Product[] = [
         'Số lượng giới hạn',
   },
   {  // 13
-    name: 'TEANINICH 17 NĂM TUỔI',
+    name: 'TEANINICH\n17 YEARS OLD SPECIAL RELEASES 2017\n70cl / 55.9%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -265,7 +265,7 @@ export const productsSingleMalt: Product[] = [
         'Số lượng giới hạn',
   },
   {  // 14
-    name: 'INCHGOWER 27 NĂM TUỔI\nPHIÊN BẢN ĐẶC BIỆT 2018',
+    name: 'INCHGOWER\n27 YEARS OLD SPECIAL RELEASES 2018\n70cl / 55.3%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -281,7 +281,7 @@ export const productsSingleMalt: Product[] = [
         'Chỉ có 8544 chai trên toàn thế giới',
   },
   {  // 15
-    name: 'OBAN 21 NĂM TUỔI\nPHIÊN BẢN ĐẶC BIỆT 2018',
+    name: 'OBAN\n21 YEARS OLD SPECIAL RELEASES 2018\n70cl / 57.9%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -297,7 +297,7 @@ export const productsSingleMalt: Product[] = [
         'Số lượng giới hạn',
   },
   {  // 16
-    name: 'PITTYVAICH 28 NĂM TUỔI\nPHIÊN BẢN ĐẶC BIỆT 2018',
+    name: 'PITTYVAICH\n28 YEARS OLD SPECIAL RELEASES 2018\n70cl / 52.1%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -313,7 +313,7 @@ export const productsSingleMalt: Product[] = [
         'Số lượng giới hạn',
   },
   {  // 17
-    name: 'LINKWOOD 1978 37 NĂM TUỔI\nPHIÊN BẢN ĐẶC BIỆT 2016',
+    name: 'LINKWOOD\n37 YEARS OLD SPECIAL RELEASES 2016\n70cl / 50.3%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -329,7 +329,7 @@ export const productsSingleMalt: Product[] = [
         'Chỉ có 6.114 chai trên toàn thế giới',
   },
   {  // 18
-    name: 'PORT ELLEN 39 NĂM TUỔI',
+    name: 'PORT ELLEN\n39 YEARS OLD\n70cl / 50.9%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -344,7 +344,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Hương cam quýt, mật ong, chocolate trắng cùng chút đằm khói và than bùn',
   },
   {  // 18 - 1
-    name: 'LAGAVULIN 12 NĂM TUỔI',
+    name: 'LAGAVULIN\n12 YEARS OLD SPECIAL RELEASES 2016\n70cl / 57.7%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -360,7 +360,7 @@ export const productsSingleMalt: Product[] = [
         'Số lượng giới hạn',
   },
   {  // 19
-    name: 'CLYNELISH SELECT RESERVE 2ND\nEDITION SPECIAL RELEASES 2015',
+    name: 'CLYNELISH\nSPECIAL RELEASES 2015\n70cl / 56.1%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -375,7 +375,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Vị ngọt trái cây thơm mát, hậu vị cay mặn',
   },
   {  // 20
-    name: 'TALISKER 15 NĂM TUỔI',
+    name: 'TALISKER\n15 YEARS OLD SPECIAL RELEASES 2019\n70cl / 57.3%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -391,7 +391,7 @@ export const productsSingleMalt: Product[] = [
         'Số lượng giới hạn',
   },
   {  // 21
-    name: 'CRAGGANMORE 12 NĂM TUỔI',
+    name: 'CRAGGANMORE\n12 YEARS OLD SPECIAL RELEASES 2019\n70cl / 58.4%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -406,7 +406,7 @@ export const productsSingleMalt: Product[] = [
         'Hương vị: Vị ngọt của mật ong, chua nhẹ từ vỏ cam, hậu vị cay mùi caramel',
   },
   {  // 22
-    name: 'CARDHU 14 NĂM TUỔI',
+    name: 'CARDHU\n14 YEARS OLD SPECIAL RELEASES 2019\n70cl / 55%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -422,7 +422,7 @@ export const productsSingleMalt: Product[] = [
         'Chỉ có 4.864 chai trên toàn thế giới',
   },
   {  // 23
-    name: 'LAGAVULIN 12 TUỔI',
+    name: 'LAGAVULIN\n12 YEARS OLD SPECIAL RELEASES 2019\n70cl / 56.5%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -438,7 +438,7 @@ export const productsSingleMalt: Product[] = [
         'Số lượng giới hạn',
   },
   {  // 24
-    name: 'PITTYVAICH 29 NĂM TUỔI',
+    name: 'PITTYVAICH\n29 YEARS OLD SPECIAL RELEASES 2019\n70cl / 51.4%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -454,7 +454,7 @@ export const productsSingleMalt: Product[] = [
         'Chỉ có 4.976 chai trên toàn thế giới',
   },
   {  // 25
-    name: 'DALWHINNIE 30 NĂM TUỔI',
+    name: 'DALWHINNIE\n30 YEARS OLD SPECIAL RELEASES 2019\n70cl / 54.7%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -470,7 +470,7 @@ export const productsSingleMalt: Product[] = [
         'Chỉ có 7.586 chai trên toàn thế giới',
   },
   {  // 26
-    name: 'MORTLACH 26 NĂM TUỔI',
+    name: 'MORTLACH\n26 YEARS OLD SPECIAL RELEASES 2019\n70cl / 53.3%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,
@@ -486,7 +486,7 @@ export const productsSingleMalt: Product[] = [
         'Chỉ có 3.883 chai trên toàn thế giới',
   },
   {  // 27
-    name: 'THE SINGLETON OF GLEN ORD\n18 NĂM TUỔI',
+    name: 'THE SINGLETON OF GLEN ORD\n18 YEARS OLD SPECIAL RELEASES 2019\n70cl / 55%',
     type: 'SINGLE MALT',
     colors: ['Black', 'Red', 'White'],
     cost: 150,

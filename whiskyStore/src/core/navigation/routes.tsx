@@ -114,11 +114,11 @@ const EcommerceNavigationMap: NavigationRouteConfigMap<any, NavigationStackProp>
     screen: PaymentContainer,
     navigationOptions: EcommerceNavigationOptions,
   },
-  ['BLENDED SCOTCH']: {
+  ['BLENDED']: {
     screen: ProductsListContainer,
     navigationOptions: EcommerceNavigationOptions,
   },
-  ['SINGLE MALT']: {
+  ['SINGLE MALTS']: {
     screen: ProductsSingleMailListContainer,
     navigationOptions: EcommerceNavigationOptions,
   },
