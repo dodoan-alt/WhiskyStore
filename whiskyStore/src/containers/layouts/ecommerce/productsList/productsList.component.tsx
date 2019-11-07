@@ -121,10 +121,14 @@ class ProductsListComponent extends React.Component<ProductsListProps, State> {
     const displayProducts: Product[] = this.getCategoryProducts(products, this.state.tabCategories[0]);
     return (
       <View>
-       
-      <TouchableOpacity style={{position: 'absolute',}} onPress={() => this.onTouchBack()} >
+         <View style={{position: 'absolute', paddingTop:10, paddingLeft:10}}>
+        
+      </View>
+      <TouchableOpacity style={{alignItems: 'center',
+    
+    padding: 10}} onPress={() => this.onTouchBack()} >
       {/* <Image source={ArrowIosBackFill}></Image> */}
-      <Ionicons name="ios-arrow-back" size={24} style = {{color: 'black'}}/>
+      <Ionicons name="ios-arrow-back" size={24} style = {{paddingTop:10, paddingLeft:10,color: 'black'}}/>
     </TouchableOpacity>
      <ProductList
            contentContainerStyle={themedStyle.productsListContent}
