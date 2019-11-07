@@ -105,7 +105,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
 
   private onMoreProductAddPress = ()=>{}
   private onMoreProductPress = (index:number)=>{
-    const productsList = this.state.productState.type === 'BLENDED SCOTCH'? products: productsSingleMalt;
+    const productsList = this.state.productState.type === 'BLENDED'? products: productsSingleMalt;
     this.setState({productState:productsList[index]});
     console.log('this.containerView',this.containerView);
     this.containerView.scrollToTop();
@@ -188,7 +188,7 @@ class ProductDetailsComponent extends React.Component<ProductDetailsProps, State
 
   private renderPagerMoreItems = (): React.ReactElement<ViewProps> => {
     const { themedStyle } = this.props;
-    const productsList = this.state.productState.type === 'BLENDED SCOTCH'? products: productsSingleMalt;
+    const productsList = this.state.productState.type === 'BLENDED'? products: productsSingleMalt;
     
     return (
       <View>

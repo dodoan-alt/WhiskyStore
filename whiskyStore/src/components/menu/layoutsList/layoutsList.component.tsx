@@ -67,9 +67,12 @@ export const LayoutsList = withStyles(LayoutsListComponent, (theme: ThemeType) =
   container: {},
   item: {
     flex: 1,
-    height: 160,
+    height: 250,
     maxWidth: itemWidth,
     marginHorizontal: 8,
     marginVertical: 8,
+    justifyContent: 'center',
+    alignItems: 'center',
+    
   },
 }));

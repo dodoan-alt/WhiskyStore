@@ -40,12 +40,7 @@ class LayoutsListItemComponent extends React.Component<LayoutsListItemProps> {
         <ListItem
           {...restProps}
           style={[themedStyle.container, style]}>
-          {this.renderIconElement(themedStyle.icon, currentTheme)}
-          <Text
-            style={themedStyle.title}
-            category='s2'>
-            {data.title}
-          </Text>
+          {this.renderIconElement(themedStyle.icon, currentTheme)}         
         </ListItem>
       )}</ThemeContext.Consumer>
     );
@@ -57,15 +52,17 @@ export const LayoutsListItem = withStyles(LayoutsListItemComponent, (theme: Them
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column',
-    borderRadius: 8,
-    borderColor: '#996633',
-    borderWidth: 0.5,
-    paddingHorizontal: 0,
-    paddingVertical: 0,
+    // borderRadius: 8,
+    // borderColor: '#996633',
+    // borderWidth: 0.5,
+    // paddingHorizontal: 20,
+    // paddingVertical: 20,
   },
   icon: {
-    width: 64,
-    height: 64,
+    resizeMode: 'contain',
+    // alignSelf: 'center',
+    width: 450,
+    height: 250,
   },
   title: {
     marginTop: 8,

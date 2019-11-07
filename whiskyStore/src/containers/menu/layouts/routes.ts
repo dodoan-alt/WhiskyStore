@@ -95,7 +95,7 @@ export const routes: LayoutsContainerData[] = [
         'Eva Dark': MenuIconBlendedScotch(style),
       }, theme);
     },
-    route: 'BLENDED SCOTCH',
+    route: 'BLENDED',
   },
   {
     title: 'SINGLE MALTS',
@@ -105,7 +105,7 @@ export const routes: LayoutsContainerData[] = [
         'Eva Dark': MenuIconSingleMalt(style),
       }, theme);
     },
-    route: 'SINGLE MALT',
+    route: 'SINGLE MALTS',
   },
   {
     title: 'CUSTOMIZATION',

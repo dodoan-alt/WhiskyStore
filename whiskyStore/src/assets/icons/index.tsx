@@ -645,7 +645,7 @@ export const TwitterIconFill = (style: ImageStyle): IconElement<ImageProps> => {
 
 export const MenuIconBlendedScotch = (style: StyleProp<ImageStyle>): AssetIconElement => {
   const source: IconSource = {
-    imageSource: require('./icon-BlendedScotch.jpg'),
+    imageSource: require('./icon-BlendedScotch.png'),
   };
 
   return AssetIcon(source, style);
@@ -653,7 +653,7 @@ export const MenuIconBlendedScotch = (style: StyleProp<ImageStyle>): AssetIconEl
 
 export const MenuIconSingleMalt = (style: StyleProp<ImageStyle>): AssetIconElement => {
   const source: IconSource = {
-    imageSource: require('./icon-SingleMalt.jpg'),
+    imageSource: require('./icon-SingleMalt.png'),
   };
 
   return AssetIcon(source, style);
@@ -661,7 +661,7 @@ export const MenuIconSingleMalt = (style: StyleProp<ImageStyle>): AssetIconEleme
 
 export const MenuIconCustomization = (style: StyleProp<ImageStyle>): AssetIconElement => {
   const source: IconSource = {
-    imageSource: require('./icon-Customization.jpg'),
+    imageSource: require('./icon-Customization.png'),
   };
 
   return AssetIcon(source, style);
@@ -669,7 +669,7 @@ export const MenuIconCustomization = (style: StyleProp<ImageStyle>): AssetIconEl
 
 export const MenuIconWhiskyMap = (style: StyleProp<ImageStyle>): AssetIconElement => {
   const source: IconSource = {
-    imageSource: require('./icon-WhiskyMap.jpg'),
+    imageSource: require('./icon-WhiskyMap.png'),
   };
 
   return AssetIcon(source, style);
