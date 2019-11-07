@@ -18,7 +18,6 @@ interface ComponentProps {
   products: Product[];
   onProductPress: (product: Product) => void;
   onProductAddPress: (product: Product) => void;
-  onTouchBack:()=>void;
 }
 
 interface State {
@@ -120,24 +119,12 @@ class ProductsListComponent extends React.Component<ProductsListProps, State> {
 
     const displayProducts: Product[] = this.getCategoryProducts(products, this.state.tabCategories[0]);
     return (
-      <View>
-         <View style={{position: 'absolute', paddingTop:10, paddingLeft:10}}>
-        
-      </View>
-      <TouchableOpacity style={{alignItems: 'center',
-    
-    padding: 10}} onPress={() => this.onTouchBack()} >
-      {/* <Image source={ArrowIosBackFill}></Image> */}
-      <Ionicons name="ios-arrow-back" size={24} style = {{paddingTop:10, paddingLeft:10,color: 'black'}}/>
-    </TouchableOpacity>
-     <ProductList
-           contentContainerStyle={themedStyle.productsListContent}
-           data={displayProducts}
-          onItemPress={this.onProductPress}
-         onItemAddPress={this.onProductAddPress}
-         />
-        
-      </View>
+      <ProductList
+      contentContainerStyle={themedStyle.productsListContent}
+      data={displayProducts}
+     onItemPress={this.onProductPress}
+    onItemAddPress={this.onProductAddPress}
+    />
     
     );
   }

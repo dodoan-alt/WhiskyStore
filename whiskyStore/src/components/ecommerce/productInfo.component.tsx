@@ -30,6 +30,7 @@ interface ComponentProps {
   colors: string[];
   selectedColorIndex: number;
   onColorSelect: (index: number) => void;
+  onGoBack:()=> void;
 }
 
 export type ProductInfoProps = ThemedComponentProps & ViewProps & ComponentProps;

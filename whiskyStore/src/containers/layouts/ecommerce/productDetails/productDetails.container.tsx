@@ -35,6 +35,9 @@ interface State {
   currentCommentText: string;
 }
 import { KEY_NAVIGATION_BACK } from '@src/core/navigation/constants';
+import { View } from 'react-native';
+import { TouchableOpacity } from 'react-native-gesture-handler';
+import { Ionicons } from '@expo/vector-icons'
 export class ProductDetailsContainer extends React.Component<NavigationStackScreenProps, State> {
 
   public state: State = {
@@ -121,7 +124,8 @@ export class ProductDetailsContainer extends React.Component<NavigationStackScre
     const { navigation } = this.props;
     this.state.product = navigation.getParam('productDetail',  products[1]);
     return (
-      <ProductDetails
+      <View style={{flex:1}}>
+        <ProductDetails
         product={this.state.product}
         comments={this.state.comments}
         currentCommentText={this.state.currentCommentText}
@@ -133,6 +137,20 @@ export class ProductDetailsContainer extends React.Component<NavigationStackScre
         onCommentReplyMorePress={this.onCommentPress}
         onGoBack={this.onTouch_Back}
       />
+      <View
+            style={{width: 100,
+            height: 100,
+            top: 10,
+            left: 10,
+            opacity: 0.8,
+            position: 'absolute',}}
+          >
+            <TouchableOpacity onPress={() => this.onTouch_Back()} >
+              <Ionicons name="ios-arrow-back"  size={24}   style = {{ color: 'white'}}/>
+            </TouchableOpacity>
+          </View>
+      </View>
+      
     );
   }
 }

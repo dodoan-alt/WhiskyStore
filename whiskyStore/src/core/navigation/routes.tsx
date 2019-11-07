@@ -116,7 +116,8 @@ const EcommerceNavigationMap: NavigationRouteConfigMap<any, NavigationStackProp>
   },
   ['BLENDED']: {
     screen: ProductsListContainer,
-    navigationOptions: EcommerceNavigationOptions,
+    // navigationOptions: EcommerceNavigationOptions,
+    navigationOptions:{header:null},
   },
   ['SINGLE MALTS']: {
     screen: ProductsSingleMailListContainer,
@@ -307,7 +308,10 @@ const ComponentsNavigator: NavigationContainer = createStackNavigator(
 
 const LayoutsNavigator: NavigationContainer = createStackNavigator(
   {
-    ['WHISKY STORE']: LayoutsContainer,
+    ['WHISKY STORE']: {
+      screen:LayoutsContainer,
+      navigationOptions:{header:null},
+    },
     ['Auth']: AuthContainer,
     ['Social']: SocialContainer,
     ['Articles']: ArticlesContainer,

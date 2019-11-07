@@ -3,7 +3,9 @@ import { NavigationStackScreenProps } from 'react-navigation-stack';
 import { Product } from '@src/core/model';
 import { productsSingleMalt } from '@src/core/data/product';
 import { ProductsList } from './productsList.component';
-
+import { TouchableOpacity } from 'react-native-gesture-handler';
+import { Ionicons } from '@expo/vector-icons'
+import { View, Text } from 'react-native';
 interface State {
   products: Product[];
 }
@@ -33,12 +35,26 @@ export class ProductsSingleMailListContainer extends React.Component<NavigationS
 
   public render(): React.ReactNode {
     return (
-      <ProductsList
+      
+      <View style={{flex:1,zIndex:1}}>
+          <ProductsList
         products={this.state.products}
         onProductPress={this.onProductPress}
         onProductAddPress={this.onProductAddPress}
-        onTouchBack={this.onTouchBack}
       />
+          <View
+            style={{width: 100,
+            height: 100,
+            top: 10,
+            left: 10,
+            opacity: 0.8,
+            position: 'absolute',}}
+          >
+            <TouchableOpacity onPress={() => this.onTouchBack()} >
+              <Ionicons name="ios-arrow-back"  size={24}   style = {{ color: 'white'}}/>
+            </TouchableOpacity>
+          </View>
+      </View>
     );
   }
 }
