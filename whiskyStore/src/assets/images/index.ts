@@ -442,312 +442,312 @@ export const movieImage5: ImageSource = new RemoteImage(
 );
 
   // 1
-export const imageBlendedScotch_JohnWalker: ImageSource = {
-  imageSource: require('./source/whisky/image-BlendedScotch_JohnWalker.jpg'),
-};
+export const imageBlendedScotch_JohnWalker: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-BlendedScotch_JohnWalker.jpg?alt=media',
+);
 
   // 2
-export const imageBlendedScotch_Odyssey: ImageSource = {
-  imageSource: require('./source/whisky/image-BlendedScotch_Odyssey.jpg'),
-};
+export const imageBlendedScotch_Odyssey: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-BlendedScotch_Odyssey.jpg?alt=media',
+);
 
   // 3
-export const imageBlendedScotch_KingGeorgeV: ImageSource = {
-  imageSource: require('./source/whisky/image-BlendedScotch_KingGeorgeV.jpg'),
-};
+export const imageBlendedScotch_KingGeorgeV: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-BlendedScotch_KingGeorgeV.jpg?alt=media',
+);
 
   // 4
-export const imageBlendedScotch_JohnWalker_2016: ImageSource = {
-  imageSource: require('./source/whisky/image-BlendedScotch_JohnWalker_2016.jpg'),
-};
+export const imageBlendedScotch_JohnWalker_2016: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-BlendedScotch_JohnWalker_2016.jpg?alt=media',
+);
 
   // 5
-export const imageBlendedScotch_JohnWalker_2017: ImageSource = {
-  imageSource: require('./source/whisky/image-BlendedScotch_JohnWalker_2017.jpg'),
-};
+export const imageBlendedScotch_JohnWalker_2017: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-BlendedScotch_JohnWalker_2017.jpg?alt=media',
+);
 
   // 6
-export const imageBlendedScotch_JohnWalker_2018: ImageSource = {
-  imageSource: require('./source/whisky/image-BlendedScotch_JohnWalker_2018.jpg'),
-};
+export const imageBlendedScotch_JohnWalker_2018: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-BlendedScotch_JohnWalker_2018.jpg?alt=media',
+);
 
   // 7
-export const imageSingleMalt_Cladach_42: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Cladach_42.jpg'),
-};
+export const imageSingleMalt_Cladach_42: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Cladach_42.jpg?alt=media',
+);
 
   // 8
-export const imageSingleMalt_GlenOrd_42: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_GlenOrd_42.jpg'),
-};
+export const imageSingleMalt_GlenOrd_42: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_GlenOrd_42.jpg?alt=media',
+);
 
   // 9
-export const imageSingleMalt_GlenOrd_41: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_GlenOrd_41.jpg'),
-};
+export const imageSingleMalt_GlenOrd_41: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_GlenOrd_41.jpg?alt=media',
+);
 
   // 10
-export const imageSingleMalt_GlenOrd_40: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_GlenOrd_40.jpg'),
-};
+export const imageSingleMalt_GlenOrd_40: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_GlenOrd_40.jpg?alt=media',
+);
 
   // 11
-export const imageSingleMalt_Talisker_25: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Talisker_25.jpg'),
-};
+export const imageSingleMalt_Talisker_25: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Talisker_25.jpg?alt=media',
+);
 
   // 12
-export const imageSingleMalt_CaoIla_15: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_CaoIla_15.jpg'),
-};
+export const imageSingleMalt_CaoIla_15: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_CaoIla_15.jpg?alt=media',
+);
 
   // 13
-export const imageSingleMalt_Teaninich_17: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Teaninich_17.jpg'),
-};
+export const imageSingleMalt_Teaninich_17: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Teaninich_17.jpg?alt=media',
+);
 
   // 14
-export const imageSingleMalt_Inchgower_27: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Inchgower_27.jpg'),
-};
+export const imageSingleMalt_Inchgower_27: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Inchgower_27.jpg?alt=media',
+);
 
   // 15
-export const imageSingleMalt_Oban_21: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Oban_21.jpg'),
-};
+export const imageSingleMalt_Oban_21: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Oban_21.jpg?alt=media',
+);
 
   // 16
-export const imageSingleMalt_Pittyvaich: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Pittyvaich_28.jpg'),
-};
+export const imageSingleMalt_Pittyvaich: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Pittyvaich_28.jpg?alt=media',
+);
 
   // 17
-export const imageSingleMalt_Linkwood_37: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Linkwood_37.jpg'),
-};
+export const imageSingleMalt_Linkwood_37: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Linkwood_37.jpg?alt=media',
+);
 
   // 18
-export const imageSingleMalt_PortEllen_39: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_PortEllen_39.jpg'),
-};
+export const imageSingleMalt_PortEllen_39: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_PortEllen_39.jpg?alt=media',
+);
 
   // 18 - 1
-export const imageSingleMalt_Lagavulin_12_2016: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Lagavulin_12_2016.jpg'),
-};
+export const imageSingleMalt_Lagavulin_12_2016: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Lagavulin_12_2016.jpg?alt=media',
+);
 
   // 19
-export const imageSingleMalt_Clynelish_2015: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Clynelish_2015.jpg'),
-};
+export const imageSingleMalt_Clynelish_2015: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Clynelish_2015.jpg?alt=media',
+);
 
   // 20
-export const imageSingleMalt_Talisker_15: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Talisker_15.jpg'),
-};
+export const imageSingleMalt_Talisker_15: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Talisker_15.jpg?alt=media',
+);
 
   // 21
-export const imageSingleMalt_Cragganmore_12: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Cragganmore_12.jpg'),
-};
+export const imageSingleMalt_Cragganmore_12: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Cragganmore_12.jpg?alt=media',
+);
 
   // 22
-export const imageSingleMalt_Cardhu_14: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Cardhu_14.jpg'),
-};
+export const imageSingleMalt_Cardhu_14: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Cardhu_14.jpg?alt=media',
+);
 
   // 23
-export const imageSingleMalt_Lagavulin_12: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Lagavulin_12.jpg'),
-};
+export const imageSingleMalt_Lagavulin_12: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Lagavulin_12.jpg?alt=media',
+);
 
   // 24
-export const imageSingleMalt_PittyVaich_29: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_PittyVaich_29.jpg'),
-};
+export const imageSingleMalt_PittyVaich_29: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_PittyVaich_29.jpg?alt=media',
+);
 
   // 25
-export const imageSingleMalt_Dalwhinnie_30: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Dalwhinnie_30.jpg'),
-};
+export const imageSingleMalt_Dalwhinnie_30: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Dalwhinnie_30.jpg?alt=media',
+);
 
   // 26
-export const imageSingleMalt_Mortlach_26: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_Mortlach_26.jpg'),
-};
+export const imageSingleMalt_Mortlach_26: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_Mortlach_26.jpg?alt=media',
+);
 
   // 27
-export const imageSingleMalt_SingletonOfGlenOrd_18: ImageSource = {
-  imageSource: require('./source/whisky/image-SingleMalt_SingletonOfGlenOrd_18.jpg'),
-};
+export const imageSingleMalt_SingletonOfGlenOrd_18: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/image-SingleMalt_SingletonOfGlenOrd_18.jpg?alt=media',
+);
 
   // 1
-export const imageIconBlendedScotch_JohnWalker: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-BlendedScotch_JohnWalker.png'),
-};
+export const imageIconBlendedScotch_JohnWalker: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-BlendedScotch_JohnWalker.png?alt=media',
+);
 
   // 2
-export const imageIconBlendedScotch_Odyssey: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-BlendedScotch_Odyssey.png'),
-};
+export const imageIconBlendedScotch_Odyssey: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-BlendedScotch_Odyssey.png?alt=media',
+);
 
   // 3
-export const imageIconBlendedScotch_KingGeorgeV: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-BlendedScotch_KingGeorgeV.png'),
-};
+export const imageIconBlendedScotch_KingGeorgeV: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-BlendedScotch_KingGeorgeV.png?alt=media',
+);
 
   // 4
-export const imageIconBlendedScotch_JohnWalker_2016: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-BlendedScotch_JohnWalker_2016.png'),
-};
+export const imageIconBlendedScotch_JohnWalker_2016: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-BlendedScotch_JohnWalker_2016.png?alt=media',
+);
 
   // 5
-export const imageIconBlendedScotch_JohnWalker_2017: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-BlendedScotch_JohnWalker_2017.png'),
-};
+export const imageIconBlendedScotch_JohnWalker_2017: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-BlendedScotch_JohnWalker_2017.png?alt=media',
+);
 
   // 6
-export const imageIconBlendedScotch_JohnWalker_2018: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-BlendedScotch_JohnWalker_2018.png'),
-};
+export const imageIconBlendedScotch_JohnWalker_2018: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-BlendedScotch_JohnWalker_2018.png?alt=media',
+);
 
   // 7
-export const imageIconSingleMalt_Cladach_42: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Cladach_42.png'),
-};
+export const imageIconSingleMalt_Cladach_42: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Cladach_42.png?alt=media',
+);
 
   // 8
-export const imageIconSingleMalt_GlenOrd_42: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_GlenOrd_42.png'),
-};
+export const imageIconSingleMalt_GlenOrd_42: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_GlenOrd_42.png?alt=media',
+);
 
   // 9
-export const imageIconSingleMalt_GlenOrd_41: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_GlenOrd_41.png'),
-};
+export const imageIconSingleMalt_GlenOrd_41: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_GlenOrd_41.png?alt=media',
+);
 
   // 10
-export const imageIconSingleMalt_GlenOrd_40: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_GlenOrd_40.png'),
-};
+export const imageIconSingleMalt_GlenOrd_40: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_GlenOrd_40.png?alt=media',
+);
 
   // 11
-export const imageIconSingleMalt_Talisker_25: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Talisker_25.png'),
-};
+export const imageIconSingleMalt_Talisker_25: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Talisker_25.png?alt=media',
+);
 
   // 12
-export const imageIconSingleMalt_CaoIla_15: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_CaoIla_15.png'),
-};
+export const imageIconSingleMalt_CaoIla_15: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_CaoIla_15.png?alt=media',
+);
 
   // 13
-export const imageIconSingleMalt_Teaninich_17: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Teaninich_17.png'),
-};
+export const imageIconSingleMalt_Teaninich_17: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Teaninich_17.png?alt=media',
+);
 
   // 14
-export const imageIconSingleMalt_Inchgower_27: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Inchgower_27.png'),
-};
+export const imageIconSingleMalt_Inchgower_27: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Inchgower_27.png?alt=media',
+);
 
   // 15
-export const imageIconSingleMalt_Oban_21: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Oban_21.png'),
-};
+export const imageIconSingleMalt_Oban_21: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Oban_21.png?alt=media',
+);
 
   // 16
-export const imageIconSingleMalt_Pittyvaich: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Pittyvaich_28.png'),
-};
+export const imageIconSingleMalt_Pittyvaich: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Pittyvaich_28.png?alt=media',
+);
 
   // 17
-export const imageIconSingleMalt_Linkwood_37: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Linkwood_37.png'),
-};
+export const imageIconSingleMalt_Linkwood_37: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Linkwood_37.png?alt=media',
+);
 
   // 18
-export const imageIconSingleMalt_PortEllen_39: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_PortEllen_39.png'),
-};
+export const imageIconSingleMalt_PortEllen_39: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_PortEllen_39.png?alt=media',
+);
 
   // 18 - 1
-export const imageIconSingleMalt_Lagavulin_12_2016: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Lagavulin_12_2016.png'),
-};
+export const imageIconSingleMalt_Lagavulin_12_2016: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Lagavulin_12_2016.png?alt=media',
+);
 
   // 19
-export const imageIconSingleMalt_Clynelish_2015: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Clynelish_2015.png'),
-};
+export const imageIconSingleMalt_Clynelish_2015: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Clynelish_2015.png?alt=media',
+);
 
   // 20
-export const imageIconSingleMalt_Talisker_15: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Talisker_15.png'),
-};
+export const imageIconSingleMalt_Talisker_15: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Talisker_15.png?alt=media',
+);
 
   // 21
-export const imageIconSingleMalt_Cragganmore_12: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Cragganmore_12.png'),
-};
+export const imageIconSingleMalt_Cragganmore_12: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Cragganmore_12.png?alt=media',
+);
 
   // 22
-export const imageIconSingleMalt_Cardhu_14: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Cardhu_14.png'),
-};
+export const imageIconSingleMalt_Cardhu_14: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Cardhu_14.png?alt=media',
+);
 
   // 23
-export const imageIconSingleMalt_Lagavulin_12: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Lagavulin_12.png'),
-};
+export const imageIconSingleMalt_Lagavulin_12: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Lagavulin_12.png?alt=media',
+);
 
   // 24
-export const imageIconSingleMalt_PittyVaich_29: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_PittyVaich_29.png'),
-};
+export const imageIconSingleMalt_PittyVaich_29: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_PittyVaich_29.png?alt=media',
+);
 
   // 25
-export const imageIconSingleMalt_Dalwhinnie_30: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Dalwhinnie_30.png'),
-};
+export const imageIconSingleMalt_Dalwhinnie_30: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Dalwhinnie_30.png?alt=media',
+);
 
   // 26
-export const imageIconSingleMalt_Mortlach_26: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_Mortlach_26.png'),
-};
+export const imageIconSingleMalt_Mortlach_26: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_Mortlach_26.png?alt=media',
+);
 
   // 27
-export const imageIconSingleMalt_SingletonOfGlenOrd_18: ImageSource = {
-  imageSource: require('./source/whisky/imageIcon-SingleMalt_SingletonOfGlenOrd_18.png'),
-};
+export const imageIconSingleMalt_SingletonOfGlenOrd_18: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/imageIcon-SingleMalt_SingletonOfGlenOrd_18.png?alt=media',
+);
 
-export const imageWhiskyStoreBG: ImageSource = {
-  imageSource: require('./source/whisky/BG.jpg'),
-};
+export const imageWhiskyStoreBG: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/BG.jpg?alt=media',
+);
 
-export const imageWhiskyCustom1: ImageSource = {
-  imageSource: require('./source/whisky/WhiskyCustom_00.jpg'),
-};
-export const imageWhiskyCustom2: ImageSource = {
-  imageSource: require('./source/whisky/WhiskyCustom_01.jpg'),
-};
-export const imageWhiskyCustom3: ImageSource = {
-  imageSource: require('./source/whisky/WhiskyCustom_02.jpg'),
-};
-export const imageWhiskyCustom4: ImageSource = {
-  imageSource: require('./source/whisky/WhiskyCustom_03.jpg'),
-};
-export const imageWhiskyCustom5: ImageSource = {
-  imageSource: require('./source/whisky/WhiskyCustom_04.jpg'),
-};
-export const imageWhiskyCustom6: ImageSource = {
-  imageSource: require('./source/whisky/WhiskyCustom_05.jpg'),
-};
+export const imageWhiskyCustom1: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/WhiskyCustom_00.jpg?alt=media',
+);
+export const imageWhiskyCustom2: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/WhiskyCustom_01.jpg?alt=media',
+);
+export const imageWhiskyCustom3: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/WhiskyCustom_02.jpg?alt=media',
+);
+export const imageWhiskyCustom4: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/WhiskyCustom_03.jpg?alt=media',
+);
+export const imageWhiskyCustom5: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/WhiskyCustom_04.jpg?alt=media',
+);
+export const imageWhiskyCustom6: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/WhiskyCustom_05.jpg?alt=media',
+);
 
 
-export const imageWhiskyMap1: ImageSource = {
-  imageSource: require('./source/whisky/WhiskyMap_00.jpg'),
-};
-export const imageWhiskyMap2: ImageSource = {
-  imageSource: require('./source/whisky/WhiskyMap_01.jpg'),
-};
+export const imageWhiskyMap1: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/WhiskyMap_00.jpg?alt=media',
+);
+export const imageWhiskyMap2: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/WhiskyMap_01.jpg?alt=media',
+);
