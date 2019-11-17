@@ -65,6 +65,13 @@ class ProductListItemComponent extends React.Component<ProductListItemProps> {
               {name}
             </Text>
           </View>
+          <View style={themedStyle.priceContainer}>
+            <Text
+              style={themedStyle.costLabel}
+              category='s1'>
+              {price}
+            </Text>            
+          </View>
         </View>
       </TouchableOpacity>
     );
@@ -87,7 +94,7 @@ export const ProductListItem = withStyles(ProductListItemComponent, (theme: Them
     justifyContent: 'space-between',
   },
   priceContainer: {
-    flexDirection: 'row',
+    // flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
   },
@@ -104,7 +111,11 @@ export const ProductListItem = withStyles(ProductListItemComponent, (theme: Them
     ...textStyle.subtitle,
   },
   typeLabel: textStyle.caption1,
-  costLabel: textStyle.subtitle,
+  costLabel: {
+    textAlign:'center',
+    ...textStyle.subtitle,
+    color:'#8b8b8b',
+  },
   buyButton: {
     width: 32,
     height: 32,
