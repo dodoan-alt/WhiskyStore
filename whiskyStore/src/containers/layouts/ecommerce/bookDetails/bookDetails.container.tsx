@@ -16,12 +16,12 @@ import {
 import { BookDetails } from './bookDetails.component';
 import { View, ImageBackground } from 'react-native';
 import {
-    imageWhiskyCustom1,
-    imageWhiskyCustom2,
-    imageWhiskyCustom3,
-    imageWhiskyCustom4,
-    imageWhiskyCustom5,
-    imageWhiskyCustom6,
+    img_custom01,
+    img_custom02,
+    img_custom03,
+    img_custom04,
+    img_custom05,
+    img_custom06,
 } from '@src/assets/images/'
 const profiles: Profile[] = [
   profile1,
@@ -108,22 +108,22 @@ export class BookDetailsContainer extends React.Component<NavigationStackScreenP
       <ContainerView>
           
         <ImageBackground  resizeMode={'contain'} // or cover
-          style={{ aspectRatio: 4/3 }} source={imageWhiskyCustom1.imageSource}>
+          style={{ aspectRatio: 4/3 }} source={img_custom01.imageSource}>
             <TouchableOpacity onPress={() => this.onTouch_Back()} >
             {/* <Image source={ArrowIosBackFill}></Image> */}
             <Ionicons name="ios-arrow-back" size={24}  style = {{paddingTop:10, paddingLeft:10,  color: 'white'}}/>
           </TouchableOpacity>
           </ImageBackground>
         <ImageBackground  resizeMode={'contain'} // or cover
-          style={{ aspectRatio: 4/3 }} source={imageWhiskyCustom2.imageSource}></ImageBackground>
+          style={{ aspectRatio: 4/3 }} source={img_custom02.imageSource}></ImageBackground>
         <ImageBackground  resizeMode={'contain'} // or cover
-          style={{ aspectRatio: 4/3 }} source={imageWhiskyCustom3.imageSource}></ImageBackground>
+          style={{ aspectRatio: 4/3 }} source={img_custom03.imageSource}></ImageBackground>
         <ImageBackground  resizeMode={'contain'} // or cover
-          style={{ aspectRatio: 4/3 }} source={imageWhiskyCustom4.imageSource}></ImageBackground>
+          style={{ aspectRatio: 4/3 }} source={img_custom04.imageSource}></ImageBackground>
         <ImageBackground  resizeMode={'contain'} // or cover
-          style={{ aspectRatio: 4/3 }} source={imageWhiskyCustom5.imageSource}></ImageBackground>
+          style={{ aspectRatio: 4/3 }} source={img_custom05.imageSource}></ImageBackground>
         <ImageBackground  resizeMode={'contain'} // or cover
-          style={{ aspectRatio: 4/3 }} source={imageWhiskyCustom6.imageSource}></ImageBackground>
+          style={{ aspectRatio: 4/3 }} source={img_custom06.imageSource}></ImageBackground>
       </ContainerView>
     );
   }
