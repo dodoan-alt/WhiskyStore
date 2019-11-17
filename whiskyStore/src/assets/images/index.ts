@@ -637,6 +637,33 @@ export const img_whisky28: ImageSource = new RemoteImage(
   '?alt=media',
 );
 
+  // 29
+export const img_whisky29: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/' +
+  'img_whisky29.jpg' +
+  '?alt=media',
+);
+
+  // 30
+export const img_whisky30: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/' +
+  'img_whisky30.jpg' +
+  '?alt=media',
+);
+
+  // 31
+export const img_whisky31: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/' +
+  'img_whisky31.jpg' +
+  '?alt=media',
+);
+
+  // 32
+export const img_whisky32: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/' +
+  'img_whisky32.jpg' +
+  '?alt=media',
+);
   // 1
 export const img_icon_whisky01: ImageSource = new RemoteImage(
   'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/' +
@@ -830,6 +857,34 @@ export const img_icon_whisky27: ImageSource = new RemoteImage(
 export const img_icon_whisky28: ImageSource = new RemoteImage(
   'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/' +
   'img_icon_whisky28.png' +
+  '?alt=media',
+);
+
+  // 29
+export const img_icon_whisky29: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/' +
+  'img_icon_whisky29.png' +
+  '?alt=media',
+);
+
+  // 30
+export const img_icon_whisky30: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/' +
+  'img_icon_whisky30.png' +
+  '?alt=media',
+);
+
+  // 31
+export const img_icon_whisky31: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/' +
+  'img_icon_whisky31.png' +
+  '?alt=media',
+);
+
+  // 32
+export const img_icon_whisky32: ImageSource = new RemoteImage(
+  'https://firebasestorage.googleapis.com/v0/b/whisky-store.appspot.com/o/' +
+  'img_icon_whisky32.png' +
   '?alt=media',
 );
 

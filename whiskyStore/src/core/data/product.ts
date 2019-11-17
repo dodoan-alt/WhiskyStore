@@ -56,6 +56,14 @@ import {
   img_icon_whisky27,  // 27
   img_whisky28,  // 28
   img_icon_whisky28,  // 28
+  img_whisky29,  // 29
+  img_icon_whisky29,  // 29
+  img_whisky30,  // 30
+  img_icon_whisky30,  // 30
+  img_whisky31,  // 31
+  img_icon_whisky31,  // 31
+  img_whisky32,  // 32
+  img_icon_whisky32,  // 32
 } from '@src/assets/images';
 
 export const products: Product[] = [
@@ -159,6 +167,36 @@ export const products: Product[] = [
     currency: '$',
     photo: img_whisky07,
     iconphoto: img_icon_whisky07,
+    description: 'Cái tên Cladach trong tiếng Gaelic có nghĩa là “đường bờ biển”. Đây là sản phẩm đầu tiên được phối trộn từ 6 nhà máy chưng cất mạch nha đơn lừng danh miền duyên hải của Diageo: Caol Ila, Clynelish, Lagavulin, Oban, Inchgower và Talisker. Xuất hiện sau cùng và cũng được mong chờ nhất trong bộ sưu tập đặc biệt năm 2018 của Diageo, Cladach là đại diện tiêu biểu cho whisky mạch nha đơn tinh túy miền duyên hải. Màu vàng hổ phách cùng thiết kế độc đáo và hiện đại gợi lên hình ảnh những eo biển uốn lượn. Mang hương vị của biển cả, Cladach tựa như con thuyền vượt sóng chở người ra khơi chinh phục đại dương mênh mông. Cuộc hành trình bắt đầu với vị mặn của muối biển nơi đầu lưỡi, tiếp sau đó là vị ngọt thanh mát của gió và mây trời tạo nên sự hài hòa tổng thể trong vòm miệng. Hậu vị cay nồng cùng với một chút hơi khói âm ỉ ấm áp tựa như biển cả bao la. Sự kết hợp ấy đã tạo nên một kiệt tác “whisky đại dương xanh” hoàn hảo.',
+    size: 'Thể tích: 70 cl / Độ cồn: 57.1%\n' +
+        'Bộ sưu tập: Special Release 2018\n' +
+        'Thùng ủ: Gỗ sồi già Mỹ và châu Âu\n' +
+        'Hương vị: Muối và tảo biển, ngọt thanh của mật ong và trái cây, hậu vị cay kèm mùi khói ấm nóng\n' +
+        'Số lượng giới hạn',
+  },
+  {  // 29
+    name: 'JOHN WALKER & SONS\nBLUE LABEL\n75cl / 40%',
+    type: 'BLENDED',
+    colors: ['Black', 'Red', 'White'],
+    cost: 150,
+    currency: '$',
+    photo: img_whisky29,
+    iconphoto: img_icon_whisky29,
+    description: 'Cái tên Cladach trong tiếng Gaelic có nghĩa là “đường bờ biển”. Đây là sản phẩm đầu tiên được phối trộn từ 6 nhà máy chưng cất mạch nha đơn lừng danh miền duyên hải của Diageo: Caol Ila, Clynelish, Lagavulin, Oban, Inchgower và Talisker. Xuất hiện sau cùng và cũng được mong chờ nhất trong bộ sưu tập đặc biệt năm 2018 của Diageo, Cladach là đại diện tiêu biểu cho whisky mạch nha đơn tinh túy miền duyên hải. Màu vàng hổ phách cùng thiết kế độc đáo và hiện đại gợi lên hình ảnh những eo biển uốn lượn. Mang hương vị của biển cả, Cladach tựa như con thuyền vượt sóng chở người ra khơi chinh phục đại dương mênh mông. Cuộc hành trình bắt đầu với vị mặn của muối biển nơi đầu lưỡi, tiếp sau đó là vị ngọt thanh mát của gió và mây trời tạo nên sự hài hòa tổng thể trong vòm miệng. Hậu vị cay nồng cùng với một chút hơi khói âm ỉ ấm áp tựa như biển cả bao la. Sự kết hợp ấy đã tạo nên một kiệt tác “whisky đại dương xanh” hoàn hảo.',
+    size: 'Thể tích: 70 cl / Độ cồn: 57.1%\n' +
+        'Bộ sưu tập: Special Release 2018\n' +
+        'Thùng ủ: Gỗ sồi già Mỹ và châu Âu\n' +
+        'Hương vị: Muối và tảo biển, ngọt thanh của mật ong và trái cây, hậu vị cay kèm mùi khói ấm nóng\n' +
+        'Số lượng giới hạn',
+  },
+  {  // 30
+    name: 'JOHN WALKER & SONS\nBLUE LABEL GHOST & RARE PORT ELLEN\n70cl / 43.8%',
+    type: 'BLENDED',
+    colors: ['Black', 'Red', 'White'],
+    cost: 150,
+    currency: '$',
+    photo: img_whisky30,
+    iconphoto: img_icon_whisky30,
     description: 'Cái tên Cladach trong tiếng Gaelic có nghĩa là “đường bờ biển”. Đây là sản phẩm đầu tiên được phối trộn từ 6 nhà máy chưng cất mạch nha đơn lừng danh miền duyên hải của Diageo: Caol Ila, Clynelish, Lagavulin, Oban, Inchgower và Talisker. Xuất hiện sau cùng và cũng được mong chờ nhất trong bộ sưu tập đặc biệt năm 2018 của Diageo, Cladach là đại diện tiêu biểu cho whisky mạch nha đơn tinh túy miền duyên hải. Màu vàng hổ phách cùng thiết kế độc đáo và hiện đại gợi lên hình ảnh những eo biển uốn lượn. Mang hương vị của biển cả, Cladach tựa như con thuyền vượt sóng chở người ra khơi chinh phục đại dương mênh mông. Cuộc hành trình bắt đầu với vị mặn của muối biển nơi đầu lưỡi, tiếp sau đó là vị ngọt thanh mát của gió và mây trời tạo nên sự hài hòa tổng thể trong vòm miệng. Hậu vị cay nồng cùng với một chút hơi khói âm ỉ ấm áp tựa như biển cả bao la. Sự kết hợp ấy đã tạo nên một kiệt tác “whisky đại dương xanh” hoàn hảo.',
     size: 'Thể tích: 70 cl / Độ cồn: 57.1%\n' +
         'Bộ sưu tập: Special Release 2018\n' +
@@ -493,6 +531,38 @@ export const productsSingleMalt: Product[] = [
     currency: '$',
     photo: img_whisky28,
     iconphoto: img_icon_whisky28,
+    description: 'The Singleton of Glen Ord được biết đến với hương vị cân bằng tuyệt hảo, êm mượt và phong phú, được ví như sức sống mạnh mẽ của những chú cá hồi bơi ngược dòng nước vùng Highland xứ sở Scotland. Là sự kết hợp hoàn hảo của dòng nước tinh khiết, nguồn nguyên liệu yến mạch từ vùng Highland trứ danh, và kĩ thuật chưng cất chậm độc đáo, The Singleton of Glen Ord 18 năm tuổi đã dành nhiều giải thưởng quốc tế danh giá. Trưởng thành ít nhất 18 năm trong những thùng gỗ sồi Hogsheads châu Mỹ, nét đặc trưng của Glen Ord nay được điểm xuyến thêm chút táo bạo trong hương vị. Chất rượu đậm đà, dậy vị trái cây, cam quýt mát lạnh và nét ngọt ngào của kẹo sô cô la cùng dư vị cay nồng lưu luyến ở cuống họng. Một lần nữa, với hương vị tuyệt hảo này, những nhà pha chế bậc thầy của Singleton đã khẳng định: không có khái niệm uống single malt, single malt là để thưởng thức.',
+    size: 'Thể tích: 70 cl / Độ cồn: 55%\n' +
+        'Scotch whisky mạch nha đơn vùng Highland\n' +
+        'Bộ sưu tập: Special Release 2019\n' +
+        'Thùng ủ: Gỗ sồi châu Mỹ Hogsheads\n' +
+        'Hương vị: Kẹo bơ cứng ngọt, chua nhẹ từ vỏ cam, hậu vị cay âm ỉ\n' +
+        'Số lượng giới hạn',
+  },
+  {  // 31
+    name: 'MORTLACH\n25 YEARS OLD\n50cl / 43.4%',
+    type: 'SINGLE MALT',
+    colors: ['Black', 'Red', 'White'],
+    cost: 150,
+    currency: '$',
+    photo: img_whisky31,
+    iconphoto: img_icon_whisky31,
+    description: 'The Singleton of Glen Ord được biết đến với hương vị cân bằng tuyệt hảo, êm mượt và phong phú, được ví như sức sống mạnh mẽ của những chú cá hồi bơi ngược dòng nước vùng Highland xứ sở Scotland. Là sự kết hợp hoàn hảo của dòng nước tinh khiết, nguồn nguyên liệu yến mạch từ vùng Highland trứ danh, và kĩ thuật chưng cất chậm độc đáo, The Singleton of Glen Ord 18 năm tuổi đã dành nhiều giải thưởng quốc tế danh giá. Trưởng thành ít nhất 18 năm trong những thùng gỗ sồi Hogsheads châu Mỹ, nét đặc trưng của Glen Ord nay được điểm xuyến thêm chút táo bạo trong hương vị. Chất rượu đậm đà, dậy vị trái cây, cam quýt mát lạnh và nét ngọt ngào của kẹo sô cô la cùng dư vị cay nồng lưu luyến ở cuống họng. Một lần nữa, với hương vị tuyệt hảo này, những nhà pha chế bậc thầy của Singleton đã khẳng định: không có khái niệm uống single malt, single malt là để thưởng thức.',
+    size: 'Thể tích: 70 cl / Độ cồn: 55%\n' +
+        'Scotch whisky mạch nha đơn vùng Highland\n' +
+        'Bộ sưu tập: Special Release 2019\n' +
+        'Thùng ủ: Gỗ sồi châu Mỹ Hogsheads\n' +
+        'Hương vị: Kẹo bơ cứng ngọt, chua nhẹ từ vỏ cam, hậu vị cay âm ỉ\n' +
+        'Số lượng giới hạn',
+  },
+  {  // 32
+    name: 'MORTLACH\n18 YEARS OLD\n50cl / 43.4%',
+    type: 'SINGLE MALT',
+    colors: ['Black', 'Red', 'White'],
+    cost: 150,
+    currency: '$',
+    photo: img_whisky32,
+    iconphoto: img_icon_whisky32,
     description: 'The Singleton of Glen Ord được biết đến với hương vị cân bằng tuyệt hảo, êm mượt và phong phú, được ví như sức sống mạnh mẽ của những chú cá hồi bơi ngược dòng nước vùng Highland xứ sở Scotland. Là sự kết hợp hoàn hảo của dòng nước tinh khiết, nguồn nguyên liệu yến mạch từ vùng Highland trứ danh, và kĩ thuật chưng cất chậm độc đáo, The Singleton of Glen Ord 18 năm tuổi đã dành nhiều giải thưởng quốc tế danh giá. Trưởng thành ít nhất 18 năm trong những thùng gỗ sồi Hogsheads châu Mỹ, nét đặc trưng của Glen Ord nay được điểm xuyến thêm chút táo bạo trong hương vị. Chất rượu đậm đà, dậy vị trái cây, cam quýt mát lạnh và nét ngọt ngào của kẹo sô cô la cùng dư vị cay nồng lưu luyến ở cuống họng. Một lần nữa, với hương vị tuyệt hảo này, những nhà pha chế bậc thầy của Singleton đã khẳng định: không có khái niệm uống single malt, single malt là để thưởng thức.',
     size: 'Thể tích: 70 cl / Độ cồn: 55%\n' +
         'Scotch whisky mạch nha đơn vùng Highland\n' +
