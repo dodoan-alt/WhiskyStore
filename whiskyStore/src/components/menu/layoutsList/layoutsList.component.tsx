@@ -18,8 +18,9 @@ import {
 } from './layoutsListItem.component';
 import { LayoutsListItemData } from './type';
 
-const { width } = Dimensions.get('window');
+var {height, width} = Dimensions.get('window');
 const itemWidth: number = width / 2 - 32;
+const itemHeight: number = height / 2 - 50;
 
 // @ts-ignore (override `renderItem` prop)
 interface ComponentProps extends ListProps {
@@ -64,15 +65,16 @@ class LayoutsListComponent extends React.Component<LayoutsListProps> {
 }
 
 export const LayoutsList = withStyles(LayoutsListComponent, (theme: ThemeType) => ({
-  container: {},
+  container: {
+  },
   item: {
     flex: 1,
-    height: 250,
-    maxWidth: itemWidth,
+    maxHeight: itemHeight,
     marginHorizontal: 8,
     marginVertical: 8,
     justifyContent: 'center',
     alignItems: 'center',
+    flexDirection: 'row'
     
   },
 }));

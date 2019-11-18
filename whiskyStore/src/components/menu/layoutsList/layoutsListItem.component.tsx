@@ -1,5 +1,8 @@
 import React from 'react';
-import { ImageProps } from 'react-native';
+import {
+  Dimensions,
+  ImageProps,
+} from 'react-native';
 import {
   StyleType,
   ThemedComponentProps,
@@ -17,6 +20,10 @@ import {
   ThemeContext,
   ThemeKey,
 } from '@src/core/themes';
+
+var {height, width} = Dimensions.get('window');
+const itemWidth: number = width / 2 - 32;
+const itemHeight: number = height / 2 - 50;
 
 interface ComponentProps {
   data: LayoutsListItemData;
@@ -52,17 +59,20 @@ export const LayoutsListItem = withStyles(LayoutsListItemComponent, (theme: Them
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column',
+    flex: 1,
     // borderRadius: 8,
     // borderColor: '#996633',
     // borderWidth: 0.5,
-    // paddingHorizontal: 20,
-    // paddingVertical: 20,
+    paddingHorizontal: 20,
+    paddingVertical: 20,
   },
   icon: {
     resizeMode: 'contain',
     // alignSelf: 'center',
-    width: 450,
-    height: 250,
+    // maxWidth: 450,
+    // maxHeight: 250,
+    maxHeight: itemHeight,
+    maxWidth: itemWidth,
   },
   title: {
     marginTop: 8,
