@@ -83,14 +83,14 @@ export const ProductListItem = withStyles(ProductListItemComponent, (theme: Them
     borderRadius: 12,
     borderColor: '#996633',
     borderWidth: 0.5,
-    width: 450,
-    height: 450,
-    // padding: 70,
+    flex: 1,
+    maxHeight: 450,
+    minWidth: 400,
     alignSelf: 'center',
   },
   infoContainer: {
     // flex: 1,
-    padding: 15,
+    padding: 5,
     justifyContent: 'space-between',
   },
   priceContainer: {
@@ -100,8 +100,6 @@ export const ProductListItem = withStyles(ProductListItemComponent, (theme: Them
   },
   image: {
     flex: 1,
-    height: 250,
-    width: 250,
     aspectRatio: 1,
     resizeMode: 'contain',
     alignSelf: 'center',
